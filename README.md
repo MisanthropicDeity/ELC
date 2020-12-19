@@ -1,4 +1,4 @@
-# ELC
+# ELC Project work
 
 NLP based project which features Text Summarization, Question Answering (Theoretical) and Question answering (Statiscal) For COVID-19.
 
