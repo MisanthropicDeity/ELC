@@ -14,6 +14,7 @@ def pr_task3():
     f = open('Covid.json', encoding="UTF-8")
     data1 = json.load(f)
     table = pd.DataFrame.from_dict(data1)
+    table = table.head(80)
     return table
     
 def non_cachable_task3(): 
@@ -80,7 +81,14 @@ elif  option == 'Question Answer (Theoretical)' :
         'context': text_ans,
         }
         res = nlp(QA_input,topk = value)
-        st.write(res)
+        #st.write(res)
+        if(value>1):
+            for x in range(len(res)):
+                st.write('Answer ',x+1," :", res[x]['answer'])
+                st.write('score : ', res[x]['score'] )
+        else:
+            st.write('Answer ',1," :", res['answer'])
+            st.write('score : ', res['score'] )
 
     
         
@@ -90,13 +98,17 @@ elif  option == 'Question Answer (Statistical)' :
     # value = st.sidebar.slider('Select number of closest answer to ',1,5, (1))
     # st.sidebar.write("No of Answers to Print", value)
     table = pr_task3()
-    if st.button('Show data'):
+    sh = 0
+    if st.checkbox('Show data'):
         st.write(table)
     if st.button('compute'):
         nlp = non_cachable_task3()
         res = nlp(table,user_input)
-        st.write(res)
-
+        #st.write(res)
+        if len(res['answer'])>0:
+            st.write('Answer :', res['answer'])
+        else:
+            st.write("Sorry our model wasn't able to give answer to your question this time, try some other query please")
 
 
 # latest_iteration = st.empty()
