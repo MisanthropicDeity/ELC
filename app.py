@@ -8,11 +8,7 @@ import torch
 import pandas as pd
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
-nlp1
-@st.cache
-def initializations():
-    global nlp1
-    nlp1 = None 
+
 @st.cache
 def pr_task3():
     f = open('Covid.json', encoding="UTF-8")
@@ -28,10 +24,10 @@ def non_cachable_task3():
 
 @st.cache
 def non_cachable_task1():
-    global nlp1
+    #global nlp1
     model_name3 = 't5-small'
     nlp1 = pipeline('summarization', model = model_name3)
-    #return summary
+    return nlp1
 
 @st.cache
 def pr_task2():
@@ -64,14 +60,14 @@ option = st.sidebar.selectbox(
 
 
 if(option == 'Summary'):
-    initializations()
+    #initializations()
     st.write('## Summary ')
     user_input = st.text_area("Content to summarize", 'Enter your text here')
     values = st.sidebar.slider('Select a range of values', 10, 100, (25, 75))
     st.sidebar.write('Min:', values[0])
     st.sidebar.write('Max:', values[1])
     if st.button('Compute'):
-        non_cachable_task1()
+        np1 = non_cachable_task1()
         summarized_text = nlp1(user_input,values[0],values[1])
         st.write(summarized_text)
 
