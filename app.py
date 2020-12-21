@@ -22,7 +22,7 @@ def non_cachable_task3():
     table_ans = pipeline('table-question-answering', model = model_name2, tokenizer = model_name2)
     return table_ans
 
-@st.cache
+
 def non_cachable_task1():
     #global nlp1
     model_name3 = 't5-small'
