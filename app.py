@@ -70,6 +70,7 @@ if(option == 'Summary'):
         nlp1 = non_cachable_task1()
         summarized_text = nlp1(user_input,min_length = values[0],max_length = values[1])
         st.write(summarized_text[0]['summary_text'])
+        st.write("Length of summary: " ,len(summarized_text[0]['summary_text'].split()) )
 
 elif  option == 'Question Answer (Theoretical)' :
     st.write('## Question Answer Theoretical ')
