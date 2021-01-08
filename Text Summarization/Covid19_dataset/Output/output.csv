@@ -1,389 +1,195 @@
-cue_score,numeric_score,sentence_length_score,sentence_pos,upper_case_score,heading_match_score,word_frequency,proper_noun,keys,label
-0,0,0.8,1,1,0.87,0.484,0.364,"Success from two leading coronavirus vaccine programs likely means other frontrunners will also show strong protection against COVID-19, Bill Gates said Tuesday.",1
-0,0,-2.25,0.5,1,1,1,1,"The fact that two coronavirus vaccines recently showed strong protection against COVID-19 bodes well for other leading programs led by AstraZeneca, Novavax, and Johnson & Johnson, Bill Gates said Tuesday.The billionaire Microsoft founder and philanthropist said it will be easier to boost manufacturing and distribute these other shots to the entire world, particularly developing nations.The vaccine space has seen a flurry of good news in recent days, marked by overwhelming success in late-stage trials by both Pfizer and Moderna.",1
-0,0,1,0.333,0,0.304,0.189,0,The studies showed both vaccines provided strong protection against the virus compared to a placebo.,0
-1,0,-0.1,0.25,0,0.478,0.755,0.909,"""With the very good news from Pfizer and Moderna, we think it's now likely that AstraZeneca, Novavax, and Johnson & Johnson will also likely show very strong efficacy,"" Gates told journalist Andrew Ross Sorkin.",1
-0,0,1,0.2,0,0.13,0.238,0.091,"While Gates didn't delve into the scientific rationale behind that prediction, many scientists hold the same hope.",0
-0,0,1,0.2,0,0.174,0.158,0,All the leading vaccine candidates target the same part of the coronavirus in the spike protein.,0
-0,0,0.6,0.25,0,0.13,0.305,0,"Early-stage clinical trials showed all the shots elicited varying levels of neutralizing antibodies, virus-fighting proteins that play a critical role in the body's immune response.",0
-0,0,0.35,0.333,0,0.13,0.191,0,But the only way to know if that translates to protection is by running late-stage trials that enroll tens of thousands for volunteers who receive either the experimental shot or placebo injections.,0
-0,0,1,0.5,1,0.261,0.212,0,The scientific success has turned the top challenges surrounding a COVID-19 vaccine to the manufacturing and distribution front.,0
-0,1,0.85,1,0,0.217,0.263,0,"Gates noted that the world will be supply constrained for 2021, but these additional vaccines will prove valuable on that front.",0
-0,0,1,1,0.333,1,0.497,0.5,World Health Assembly charts course for COVID-19 response and global health priorities.,1
-0,0,0.6,0.5,0.667,0.455,0.904,0.625,"As health leaders prepare to gather for a virtual session of the resumed 73rd World Health Assembly (WHA), WHO has three messages to share.",1
-0,0,1,0.333,0.333,0.182,0.479,0,"First, we can beat COVID-19 with science, solutions and solidarity.",1
-1,1,0.8,0.25,0.667,0.182,0.545,0.125,"More than 47 million COVID-19 cases have now been reported to WHO, and more than 1.2 million people have lost their lives.",0
-0,0,0.8,0.2,0,0.182,0.471,0,"Although this is a global crisis, many countries and cities have successfully prevented or controlled transmission with a comprehensive, evidence-based approach.",1
-0,0,-0.05,0.167,0,0.273,0.545,0,"For the first time, the world has rallied behind a plan to accelerate the development of the vaccines, diagnostics and therapeutics we need, and to ensure they are available to all countries on the basis of equity.",0
-0,0,1,0.143,0.667,0.182,0.504,0.625,The Access to COVID-19 Tools (ACT) Accelerator is delivering real results.,0
-1,0,1,0.125,0,0.182,0.516,0.125,"Second, we must not backslide on our critical health goals.",1
-0,0,1,0.125,0.333,0.273,0.549,0.125,"The COVID-19 pandemic is a sobering reminder that health is the foundation of social, economic and political stability.",0
-0,0,0.45,0.143,0.333,0.091,0.569,0.125,"It reminds us why WHO’s ‘triple billion’ targets are so important, and why countries must pursue them with even more determination, collaboration and innovation.",0
-0,1,-0.35,0.167,0,0.091,0.762,0.875,"Since May, Member States have adopted a number of decisions – the Immunization Agenda 2030, the Decade of Healthy Ageing 2020-2030, as well as initiatives to tackle cervical cancer, tuberculosis, eye care, food safety, intellectual property and influenza preparedness.",1
-0,1,-0.8,0.2,0.333,0.364,0.894,1,"The resumed session will discuss a 10-year-plan for addressing neglected tropical diseases, as well as efforts to address meningitis, epilepsy and other neurological disorders, maternal infant and young child nutrition, digital health, and the WHO Global Code of Practice on the International Recruitment of Health Personnel, adopted in 2010.",0
-1,0,1,0.25,0,0.091,0.427,0,"Third, we must prepare for the next pandemic now.",1
-0,0,0.4,0.333,0,0.182,0.667,0.25,We’ve seen this past year that countries with robust health emergency preparedness infrastructure have been able to act quickly to contain and control the spread of the SARS-CoV-2 virus.,0
-0,1,0.15,0.5,1,0.364,1,0.875,"The WHA will consider a draft resolution (EB146.R10) that strengthens Member States’ preparedness for health emergencies, such as COVID-19, through more robust compliance with the International Health Regulations (2005).",0
-0,0,0.5,1,0.333,0.364,0.53,0.125,This resolution calls on the global health community to ensure that all countries are better equipped to detect and respond to cases of COVID-19 and other dangerous infectious diseases.,0
-0,0,1,1,0.25,1,0.427,0.2,"
+cue_score,numeric_score,sentence_length_score,sentence_pos,word_frequency,upper_case_score,proper_noun,heading_match_score,date_time_score,special_score,keys,label
+0.0,0.0,0.8,1.0,0.484,1.0,0.364,0.87,0,0.0,"Success from two leading coronavirus vaccine programs likely means other frontrunners will also show strong protection against COVID-19, Bill Gates said Tuesday.",1
+0.0,0.0,-2.25,0.5,1.0,1.0,1.0,1.0,0,0.0,"The fact that two coronavirus vaccines recently showed strong protection against COVID-19 bodes well for other leading programs led by AstraZeneca, Novavax, and Johnson & Johnson, Bill Gates said Tuesday.The billionaire Microsoft founder and philanthropist said it will be easier to boost manufacturing and distribute these other shots to the entire world, particularly developing nations.The vaccine space has seen a flurry of good news in recent days, marked by overwhelming success in late-stage trials by both Pfizer and Moderna.",1
+0.0,0.0,1.0,0.333,0.189,0.0,0.0,0.304,0,0.0,The studies showed both vaccines provided strong protection against the virus compared to a placebo.,0
+1.0,0.0,-0.1,0.25,0.755,0.0,0.909,0.478,0,1.0,"""With the very good news from Pfizer and Moderna, we think it's now likely that AstraZeneca, Novavax, and Johnson & Johnson will also likely show very strong efficacy,"" Gates told journalist Andrew Ross Sorkin.",1
+0.0,0.0,1.0,0.2,0.238,0.0,0.091,0.13,0,0.0,"While Gates didn't delve into the scientific rationale behind that prediction, many scientists hold the same hope.",0
+0.0,0.0,1.0,0.2,0.158,0.0,0.0,0.174,0,0.0,All the leading vaccine candidates target the same part of the coronavirus in the spike protein.,0
+0.0,0.0,0.6,0.25,0.305,0.0,0.0,0.13,0,0.0,"Early-stage clinical trials showed all the shots elicited varying levels of neutralizing antibodies, virus-fighting proteins that play a critical role in the body's immune response.",0
+0.0,0.0,0.35,0.333,0.191,0.0,0.0,0.13,0,0.0,But the only way to know if that translates to protection is by running late-stage trials that enroll tens of thousands for volunteers who receive either the experimental shot or placebo injections.,0
+0.0,0.0,1.0,0.5,0.212,1.0,0.0,0.261,0,0.0,The scientific success has turned the top challenges surrounding a COVID-19 vaccine to the manufacturing and distribution front.,0
+0.0,1.0,0.85,1.0,0.263,0.0,0.0,0.217,0,0.0,"Gates noted that the world will be supply constrained for 2021, but these additional vaccines will prove valuable on that front.",0
+0.0,0.0,1.0,1.0,0.497,0.333,0.5,1.0,0.0,0.0,World Health Assembly charts course for COVID-19 response and global health priorities.,1
+0.0,0.0,0.6,0.5,0.904,0.667,0.625,0.455,0.0,0.0,"As health leaders prepare to gather for a virtual session of the resumed 73rd World Health Assembly (WHA), WHO has three messages to share.",1
+1.0,0.0,1.0,0.333,0.479,0.333,0.0,0.182,0.0,0.0,"First, we can beat COVID-19 with science, solutions and solidarity.",1
+1.0,1.0,0.8,0.25,0.545,0.667,0.125,0.182,0.0,0.0,"More than 47 million COVID-19 cases have now been reported to WHO, and more than 1.2 million people have lost their lives.",0
+0.0,0.0,0.8,0.2,0.471,0.0,0.0,0.182,0.0,0.0,"Although this is a global crisis, many countries and cities have successfully prevented or controlled transmission with a comprehensive, evidence-based approach.",1
+1.0,0.0,-0.05,0.167,0.545,0.0,0.0,0.273,0.0,0.0,"For the first time, the world has rallied behind a plan to accelerate the development of the vaccines, diagnostics and therapeutics we need, and to ensure they are available to all countries on the basis of equity.",0
+0.0,0.0,1.0,0.143,0.504,0.667,0.625,0.182,0.0,0.0,The Access to COVID-19 Tools (ACT) Accelerator is delivering real results.,0
+1.0,0.0,1.0,0.125,0.516,0.0,0.125,0.182,0.0,0.0,"Second, we must not backslide on our critical health goals.",1
+0.0,0.0,1.0,0.125,0.549,0.333,0.125,0.273,0.0,0.0,"The COVID-19 pandemic is a sobering reminder that health is the foundation of social, economic and political stability.",0
+0.0,0.0,0.45,0.143,0.569,0.333,0.125,0.091,0.0,0.0,"It reminds us why WHO’s ‘triple billion’ targets are so important, and why countries must pursue them with even more determination, collaboration and innovation.",0
+1.0,1.0,-0.35,0.167,0.762,0.0,0.875,0.091,1.0,0.0,"Since May, Member States have adopted a number of decisions – the Immunization Agenda 2030, the Decade of Healthy Ageing 2020-2030, as well as initiatives to tackle cervical cancer, tuberculosis, eye care, food safety, intellectual property and influenza preparedness.",1
+0.0,1.0,-0.8,0.2,0.894,0.333,1.0,0.364,0.0,0.0,"The resumed session will discuss a 10-year-plan for addressing neglected tropical diseases, as well as efforts to address meningitis, epilepsy and other neurological disorders, maternal infant and young child nutrition, digital health, and the WHO Global Code of Practice on the International Recruitment of Health Personnel, adopted in 2010.",0
+1.0,0.0,1.0,0.25,0.427,0.0,0.0,0.091,0.0,0.0,"Third, we must prepare for the next pandemic now.",1
+1.0,0.0,0.4,0.333,0.667,0.0,0.25,0.182,0.0,0.0,We’ve seen this past year that countries with robust health emergency preparedness infrastructure have been able to act quickly to contain and control the spread of the SARS-CoV-2 virus.,0
+0.0,1.0,0.15,0.5,1.0,1.0,0.875,0.364,0.0,0.0,"The WHA will consider a draft resolution (EB146.R10) that strengthens Member States’ preparedness for health emergencies, such as COVID-19, through more robust compliance with the International Health Regulations (2005).",0
+0.0,0.0,0.5,1.0,0.53,0.333,0.125,0.364,0.0,0.0,This resolution calls on the global health community to ensure that all countries are better equipped to detect and respond to cases of COVID-19 and other dangerous infectious diseases.,0
+0.0,0.0,1.0,1.0,0.427,0.25,0.2,1.0,0,0.0,"
 Ensuring Cambodia has supplies and access to COVID-19 tools.",0
-0,0,0.6,0.5,0,0.286,0.688,0.3,"“As long as the virus continues to circulate anywhere, no country and no one is safe, including in Cambodia,” said Dr. Li.",1
-0,0,-0.65,0.333,0.75,0.429,1,0.4,"“We must continue to detect, test, isolate and care for patients, and trace and quarantine their contacts—and to do this we must have sufficient diagnostics, PPE, and medical equipment.” Beyond procuring supplies, WHO and the UN system are also strengthening the global supply chain.",1
-0,0,0.5,0.25,0.75,0.714,0.674,0.9,"The COVID-19 Supply Chain System, coordinated by WHO and the World Food Programme, was established to significantly scale up and speed the delivery of essential COVID-19 supplies.",0
-0,1,0.35,0.2,0.5,0.714,0.815,0.7,"As of 13 August, 83 countries, including Cambodia, had submitted 383 requests for supplies with a total estimated value of US $163 million through the COVID-19 Supply Portal.",0
-0,0,0.9,0.167,0.25,0.571,0.532,0.1,"In addition to medical, lab and PPE supplies, fair access to tools such as treatments and vaccines is vital.",0
-0,0.25,0.15,0.143,1,0.857,0.833,0.8,"On 24 April, WHO launched the Access to COVID-19 Tools (ACT) Accelerator, which is a global collaboration to accelerate development, production and equitable access to COVID-19 tests, treatments and vaccines.",1
-0,0,0.5,0.125,0.75,0.143,0.555,0.6,"COVAX Facility, the vaccines pillar of the ACT-Accelerator co-led by WHO, Gavi and CEPI, is speeding up the search for an effective vaccine for all countries.",0
-0,0.5,0.1,0.125,0,0.286,0.588,0,"At the same time, it is supporting the building of manufacturing capabilities, and buying supply ahead of time so that 2 billion doses can be?rapidly and equitably distributed by the end of 2021.",0
-0,0,0.9,0.143,0,0.143,0.342,0,Vaccines are a global public health good.,0
-0,0,0.35,0.167,0.5,0.143,0.761,0.6,"When a safe and effective vaccine is available, Gavi’s COVAX Advance Market Commitment (AMC), will be used to pay for the doses allocated to developing countries.",0
-0,0,0.95,0.2,0.5,0.286,0.383,0.3,Cambodia is eligible to receive COVAX AMC support.,0
-0,0,-0.25,0.25,1,0.857,0.982,1,"In addition to accelerating research and ensuring manufacturing capacity for COVID-19 vaccines, WHO has supported the Royal Government of Cambodia to strengthen its regulatory capacity, draft a COVID-19 National Deployment and Vaccination Plan (NDVP) and assess immunization supply chain management.",1
-0,0,0.95,0.333,0.25,0.286,0.356,0,This planning will be essential to get a successful COVID-19 vaccine to priority groups in an equitable and effective manner.,0
-0,0,0.9,0.5,0.5,0.429,0.474,0.1,"WHO and partners continue to work with suppliers to secure commitments for supplies needed for COVID-19 prevention, preparedness and response.",0
-0,0,1,1,0.25,0.429,0.642,0.2,This work is crucial in order to minimize the risk of COVID-19 infection and protect public health in Cambodia.,0
-0,0,1,1,0.333,1,0.432,0.214,New Zealand takes early and hard action to tackle COVID-19.,1
-0,1,0.15,0.5,0.333,0.375,0.648,0.214,"Three days after WHO declared the coronavirus outbreak a public health emergency of international concern on 30 January 2020, New Zealand began introducing disease prevention measures and continued strengthening them in the weeks that followed.",1
-0,0,1,0.333,0,0.125,0.213,0.143,He says their strategy was influenced by a report from the WHO–China joint mission in February.,0
-0,0,0.7,0.25,0,0.125,0.581,0.143,"“This report, including the observation that, ‘the key learning from China is speed – it’s all about the speed.",0
-0,0,-0.5,0.2,0,0.5,0.786,0.286,"The faster you can find the cases, isolate the cases, and track their close contacts, the more successful you’re going to be,’ helped influence New Zealand’s strategy to ‘go early and go hard’,” says Dr Bloomfield.",0
-0,0,0.55,0.167,0.333,0.5,0.633,0.357,"Observing the spiralling epidemic and its devastating impacts in Europe, he says the Government was “determined to minimize the impact of COVID-19” in New Zealand.",0
-0,0,1,0.143,0,0.125,0.276,0.143,"From late February through March, the country progressively tightened restrictions.",0
-0,0,0.75,0.125,0,0.125,0.466,0,"“It was recognized that implementing this strategy would have significant economic costs, but so would a major outbreak,” he explains.",0
-0,0.5,-1.4,0.111,0.333,0.625,1,0.857,"“So New Zealand took a precautionary approach and on 26 March, apart from essential workers, the entire country was required to self-quarantine at home.” WHO Regional Director for the Western Pacific, Dr Takeshi Kasai, explains that New Zealand combined strict physical distancing with strong testing, contact tracing, clinical management of those infected, and clear and regular public communication.",1
-0,0,1,0.1,0,0.125,0.213,0,The country also took steps to cushion the economic blow.,0
-0,0,0.85,0.111,0,0.375,0.662,0.214,"“New Zealand certainly benefited from being a high-income, island country with an advanced health system,"" says Dr Kasai.",0
-0,0,1,0.125,0,0.25,0.405,0,"""But they didn’t take anything for granted,” he adds.",0
-0,0,1,0.143,0.333,0.25,0.384,0.143,“They worked concertedly to limit and stop COVID-19 on their shores and support other countries in the Region.,0
-0,0.5,0.5,0.167,0,0.375,0.689,0.214,"”The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
-0,0,-0.45,0.5,1,0.625,0.823,1,Concerned that COVID-19 could be transmitted through New Zealand to Pacific island countries – which are some of the only places still free of COVID-19 – the Ministry of Health and Ministry of Foreign Affairs and Trade worked closely with WHO to support their neighbours in the Pacific.,2
-0,0,1,1,0,0.125,0.346,0,This included procuring supplies and providing training to health staff within those countries and via remote support.,0
-0,0.5,0.55,0.333,0,0.375,0.689,0.214,"The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
-0,0,1,1,0,1,0.448,0.6,Coronavirus: Inside test-and-trace - how the 'world beater' went wrong.,0
-0,0,0.7,0.5,1,0.273,0.77,1,"Just half of close contacts given to England's NHS Test and Trace are being reached in some areas, a BBC investigation has found.",1
-0,0,0.45,0.333,0,0.273,0.748,0.4,"Six months after Boris Johnson promised a ""world beating"" system, it can be shown the network is failing in areas with some of the worst infection rates.",0
-0,0,1,0.25,0.5,0.273,0.421,0.2,The research also found no-one from NHS labs was at a key government meeting with private firms about testing.,0
-0,0,1,0.2,0,0.091,0.476,0.2,"But the government said the system was ""undoubtedly"" curbing Covid spreading.",0
-0,0,0.55,0.167,0.5,0.273,0.515,0.6,"It added that NHS Test and Trace was dealing with rising numbers of cases and was working hard to ""refine and improve"" the way it worked.",0
-0,0,0.85,0.143,0,0.273,0.596,0,"The companies and their leaders involved with testing had ""hundreds of years"" of experience in the field, it said.",0
-0,0,-0.85,0.143,0.5,0.545,1,0.4,"As ministers struggle to get test-and-trace on track, BBC News spoke to key government figures, scientists and health officials who were involved from the very start to establish what went wrong - and, crucially, whether the system can be fixed to hold the virus in check until vaccines come to the rescue.",0
-0,0,0.45,0.167,0,0.182,0.453,0,The investigation found a system performing worst in the areas where it is needed the most and still struggling with the legacy of decisions that were made at the outset.,0
-0,0,0.3,0.2,0.5,0.182,0.558,0.2,"Further revelations include the fact that a move to more local contact tracing by councils was being undermined by IT problems, leading to a reliance on spreadsheets and delays getting contact details.",1
-0,0,1,0.25,1,0.364,0.457,0.8,The name NHS Test and Trace sounds like it is one whole service that is part of the NHS.,1
-0,0,0.9,0.333,0,0.091,0.209,0,Nothing could be further from the truth.,0
-0,0,0.9,0.5,0,0.091,0.411,0,"It is a complex web of different programmes, led by the civil service, that have been bolted together rapidly.",0
-0,0,0.3,1,0.5,0.273,0.644,0.2,"Private firms play a key role in terms of both testing and tracing, which has meant some of the local expertise available in the NHS, universities and councils has been bypassed.",1
-0,0,1,1,0.333,1,0.608,0.5,Coronavirus: How to stay cool in a face mask as hot UK weather forecast.,1
-0,0,0.6,0.5,1,0.182,0.414,0.167,You don't really need the TV weather maps turning red to realise that much of the UK is going to be roasting in temperatures above 30C.,1
-0,0,0,0.333,0,0.364,0.928,0,"But as you slip on your favourite summer top and shorts, you may break out in a hot sweat... as you realise you are also likely to be enduring part of your day in a face mask.",0
-0,0,1,0.25,0,0.182,0.567,0,"Keeping cool while wearing a facial covering might be more difficult, but we've gathered some tips.",0
-0,0,0.2,0.2,0.333,0.182,0.876,0.833,"""We have all got to wear masks here, but there's a few things you can do,"" says consultant dermatologist Dr Adil Sheraz, who works at a London NHS hospital.",1
-0,0,0.85,0.167,0,0.273,0.621,0,"The top tip for him is to choose a mask made from a breathable material, such as cotton or even bamboo.",0
-0,0,-0.2,0.143,0,0.455,1,0,"He says although surgical masks - the thin, blue masks that many people are seen wearing - provide protection from spreading the virus, they aren't that breathable and ""they are not the best to use for keeping cool"".",0
-0,0,0.45,0.125,0,0.273,0.747,0,But he adds that one downside to cotton masks is that they absorb more fluid and can get damp - so he suggests taking a spare out on hot days.,0
-0,0,0.95,0.111,0,0.273,0.457,0,The colour of the mask might also help.,0
-0,0,0.9,0.1,0,0.182,0.882,0.333,"""Consider having a mask that's a lighter colour, rather than a darker one,"" says Dr Sheraz.",0
-0,0,1,0.111,0,0.091,0.519,0.167,"Dark colours absorb more light, converting it into heat.",0
-0,0,1,0.125,0,0.091,0.327,0,What about putting your mask in the freezer before you head out in the heat?,0
-0,0,0.75,0.143,0,0.091,0.213,0.333,Dr Sheraz is unconvinced.,0
-0,0,0.9,0.167,0,0.091,0.36,0,"""It's not a bad idea.",0
-0,0,1,0.2,0.333,0.273,0.482,0,The only thing I was thinking about is you don't want people get cold burns on their faces.,0
-0,0,1,0.25,0.667,0.091,0.371,0.167,"So I don't think I'd advise that.""",1
-0,0,0.15,0.333,0.333,0.182,0.826,1,"Dr Anil Budh-Raja, a GP who also offers skin and cosmetic treatments at clinics in Birmingham and Chiswick, suggested a towel which has been put in the freezer could be used as a mask.",1
-0,0,0.45,0.5,0,0.273,0.462,0,The government says a face covering can be anything which safely the covers the nose and mouth - but of course you must be able to tie it in place.,0
-0,0,1,1,0,0.091,0.389,0.167,Remember that public towel slips are always embarrassing in the summer heat.,1
-0,0,1,1,0,1,0.603,0.5,Coronavirus: Global Covid-19 death toll passes one million.,1
-0,0,0.55,0.5,0,0.5,0.691,0.167,"The number of people worldwide who have died with Covid-19 has passed one million, researchers say, with many regions still reporting surging numbers of new infections.",0
-0,0,0.85,0.333,1,0.2,0.555,1,"The tally by Johns Hopkins University shows that deaths in the US, Brazil and India make up nearly half that total.",1
-0,0,1,0.25,0,0.1,0.314,0,Experts caution that the true figure is probably much higher.,0
-0,0,1,0.2,1,0.1,0.381,0.5,"UN Secretary-General António Guterres called it a ""mind-numbing"" figure and ""an agonising milestone"".",1
-0,0,0.9,0.167,0,0.1,0.802,0,"""Yet we must never lose sight of each and every individual life,"" he said in a video message.",0
-0,0,1,0.167,0,0.1,0.381,0,"""They were fathers and mothers, wives and husbands, brothers and sisters, friends and colleagues.",0
-0,0,1,0.2,0,0.1,0.286,0,"The pain has been multiplied by the savageness of this disease.""",0
-0,0.5,1,0.25,0,0.2,0.531,0.333,"The development comes nearly 10 months after news of the coronavirus began to emerge from Wuhan, China.",1
-0,1,1,0.333,0,0.2,0.368,0,The pandemic has since spread to 188 countries with more than 32 million confirmed cases.,1
-0,0,1,0.5,0,0.2,0.273,0.167,Lockdowns and other measures to try to stop the virus spreading have thrown many economies into recession.,0
-0,0,0.25,1,1,0.6,1,0.833,"Meanwhile, efforts to develop an effective vaccine are continuing - although the World Health Organization (WHO) has warned that the death toll could hit two million before one is widely available.",1
-0,0,1,1,0,1,0.544,0.333,Coronavirus: Belgium facing 'tsunami' of new infections.,1
-0,0,0.8,0.5,0,0.625,0.917,0.167,"Belgium could soon be overwhelmed by new coronavirus infections, the health minister has warned, amid soaring case numbers across the country.",1
-0,0,0.85,0.333,0,0.375,0.774,0.333,"Frank Vandenbroucke said new cases were close to a ""tsunami"" where authorities ""no longer control what is happening"".",0
-0,0,1,0.25,0,0.25,0.483,0.333,New measures to try to halt the spread came into force on Monday.,0
-0,0,1,0.2,0,0.125,0.285,0,All bars and restaurants are closed for four weeks.,0
-0,0,1,0.167,0,0.375,0.604,0.167,"Infection numbers are climbing throughout Europe, prompting new restrictions across the continent.",0
-0,0,0.65,0.143,0,0.25,0.786,0.333,"Italy announced a raft of measures on Sunday after recording its highest daily infection rate, while nine major French cities have been placed under curfew.",0
-0,0,0.95,0.125,0,0.25,0.534,0.333,The Czech Republic - which has the highest infection rate on the continent - is considering a full national lockdown.,0
-0,0,0.85,0.111,0,0.25,0.55,0.5,And the Republic of Ireland is to move into the highest level of coronavirus restrictions from midnight on Wednesday for six weeks.,0
-0,0,1,0.1,0,0.375,0.576,0.333,Belgium was one of the worst-hit countries during Europe's first wave of coronavirus earlier this year.,0
-0,0,0.6,0.091,0,0.125,0.713,1,"Overall it has the third-highest number of Covid-related deaths per 100,000 people globally, behind only Peru and San Marino, according to Johns Hopkins University data.",0
-0,0,0.2,0.091,0,0.25,0.872,0.167,"From Monday, under new government restrictions designed to tackle the fresh outbreak, residents will only be allowed to see one other person from outside their household and should work from home if possible.",0
-0,0,0.95,0.1,1,0.125,0.521,0,A curfew is in place from midnight until 05:00 for the next month and alcohol sales are banned from 20:00.,0
-0,0,1,0.111,0,0.25,0.526,0.333,"How new lockdowns are changing life across Europe
+0.0,0.0,0.6,0.5,0.688,0.0,0.3,0.286,0,0.0,"“As long as the virus continues to circulate anywhere, no country and no one is safe, including in Cambodia,” said Dr. Li.",1
+0.0,0.0,-0.65,0.333,1.0,0.75,0.4,0.429,0,0.0,"“We must continue to detect, test, isolate and care for patients, and trace and quarantine their contacts—and to do this we must have sufficient diagnostics, PPE, and medical equipment.” Beyond procuring supplies, WHO and the UN system are also strengthening the global supply chain.",1
+0.0,0.0,0.5,0.25,0.674,0.75,0.9,0.714,0,0.0,"The COVID-19 Supply Chain System, coordinated by WHO and the World Food Programme, was established to significantly scale up and speed the delivery of essential COVID-19 supplies.",0
+1.0,1.0,0.35,0.2,0.815,0.5,0.7,0.714,0,0.0,"As of 13 August, 83 countries, including Cambodia, had submitted 383 requests for supplies with a total estimated value of US $163 million through the COVID-19 Supply Portal.",0
+0.0,0.0,0.9,0.167,0.532,0.25,0.1,0.571,0,0.0,"In addition to medical, lab and PPE supplies, fair access to tools such as treatments and vaccines is vital.",0
+1.0,0.25,0.15,0.143,0.833,1.0,0.8,0.857,0,0.0,"On 24 April, WHO launched the Access to COVID-19 Tools (ACT) Accelerator, which is a global collaboration to accelerate development, production and equitable access to COVID-19 tests, treatments and vaccines.",1
+0.0,0.0,0.5,0.125,0.555,0.75,0.6,0.143,0,0.0,"COVAX Facility, the vaccines pillar of the ACT-Accelerator co-led by WHO, Gavi and CEPI, is speeding up the search for an effective vaccine for all countries.",0
+0.0,0.5,0.1,0.125,0.588,0.0,0.0,0.286,0,0.0,"At the same time, it is supporting the building of manufacturing capabilities, and buying supply ahead of time so that 2 billion doses can be?rapidly and equitably distributed by the end of 2021.",0
+0.0,0.0,0.9,0.143,0.342,0.0,0.0,0.143,0,0.0,Vaccines are a global public health good.,0
+0.0,0.0,0.35,0.167,0.761,0.5,0.6,0.143,0,0.0,"When a safe and effective vaccine is available, Gavi’s COVAX Advance Market Commitment (AMC), will be used to pay for the doses allocated to developing countries.",0
+0.0,0.0,0.95,0.2,0.383,0.5,0.3,0.286,0,0.0,Cambodia is eligible to receive COVAX AMC support.,0
+0.0,0.0,-0.25,0.25,0.982,1.0,1.0,0.857,0,0.0,"In addition to accelerating research and ensuring manufacturing capacity for COVID-19 vaccines, WHO has supported the Royal Government of Cambodia to strengthen its regulatory capacity, draft a COVID-19 National Deployment and Vaccination Plan (NDVP) and assess immunization supply chain management.",1
+0.0,0.0,0.95,0.333,0.356,0.25,0.0,0.286,0,0.0,This planning will be essential to get a successful COVID-19 vaccine to priority groups in an equitable and effective manner.,0
+0.0,0.0,0.9,0.5,0.474,0.5,0.1,0.429,0,0.0,"WHO and partners continue to work with suppliers to secure commitments for supplies needed for COVID-19 prevention, preparedness and response.",0
+0.0,0.0,1.0,1.0,0.642,0.25,0.2,0.429,0,0.0,This work is crucial in order to minimize the risk of COVID-19 infection and protect public health in Cambodia.,0
+0.0,0.0,1.0,1.0,0.432,0.333,0.214,1.0,0,0.0,New Zealand takes early and hard action to tackle COVID-19.,1
+0.5,1.0,0.15,0.5,0.648,0.333,0.214,0.375,0,0.0,"Three days after WHO declared the coronavirus outbreak a public health emergency of international concern on 30 January 2020, New Zealand began introducing disease prevention measures and continued strengthening them in the weeks that followed.",1
+0.5,0.0,1.0,0.333,0.213,0.0,0.143,0.125,0,0.0,He says their strategy was influenced by a report from the WHO–China joint mission in February.,0
+0.0,0.0,0.7,0.25,0.581,0.0,0.143,0.125,0,0.0,"“This report, including the observation that, ‘the key learning from China is speed – it’s all about the speed.",0
+0.0,0.0,-0.5,0.2,0.786,0.0,0.286,0.5,0,0.0,"The faster you can find the cases, isolate the cases, and track their close contacts, the more successful you’re going to be,’ helped influence New Zealand’s strategy to ‘go early and go hard’,” says Dr Bloomfield.",0
+0.0,0.0,0.55,0.167,0.633,0.333,0.357,0.5,0,0.0,"Observing the spiralling epidemic and its devastating impacts in Europe, he says the Government was “determined to minimize the impact of COVID-19” in New Zealand.",0
+1.0,0.0,1.0,0.143,0.276,0.0,0.143,0.125,0,0.0,"From late February through March, the country progressively tightened restrictions.",0
+0.0,0.0,0.75,0.125,0.466,0.0,0.0,0.125,0,0.0,"“It was recognized that implementing this strategy would have significant economic costs, but so would a major outbreak,” he explains.",0
+0.5,0.5,-1.4,0.111,1.0,0.333,0.857,0.625,0,0.0,"“So New Zealand took a precautionary approach and on 26 March, apart from essential workers, the entire country was required to self-quarantine at home.” WHO Regional Director for the Western Pacific, Dr Takeshi Kasai, explains that New Zealand combined strict physical distancing with strong testing, contact tracing, clinical management of those infected, and clear and regular public communication.",1
+0.0,0.0,1.0,0.1,0.213,0.0,0.0,0.125,0,0.0,The country also took steps to cushion the economic blow.,0
+0.0,0.0,0.85,0.111,0.662,0.0,0.214,0.375,0,0.0,"“New Zealand certainly benefited from being a high-income, island country with an advanced health system,"" says Dr Kasai.",0
+0.0,0.0,1.0,0.125,0.405,0.0,0.0,0.25,0,1.0,"""But they didn’t take anything for granted,” he adds.",0
+0.0,0.0,1.0,0.143,0.384,0.333,0.143,0.25,0,0.0,“They worked concertedly to limit and stop COVID-19 on their shores and support other countries in the Region.,0
+0.0,0.5,0.5,0.167,0.689,0.0,0.214,0.375,0,0.0,"”The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
+0.0,0.0,-0.45,0.5,0.823,1.0,1.0,0.625,0,0.0,Concerned that COVID-19 could be transmitted through New Zealand to Pacific island countries – which are some of the only places still free of COVID-19 – the Ministry of Health and Ministry of Foreign Affairs and Trade worked closely with WHO to support their neighbours in the Pacific.,2
+0.0,0.0,1.0,1.0,0.346,0.0,0.0,0.125,0,0.0,This included procuring supplies and providing training to health staff within those countries and via remote support.,0
+0.0,0.5,0.55,0.333,0.689,0.0,0.214,0.375,0,0.0,"The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
+0.0,0.0,1.0,1.0,0.448,0.0,0.6,1.0,0,0.0,Coronavirus: Inside test-and-trace - how the 'world beater' went wrong.,0
+0.0,0.0,0.7,0.5,0.77,1.0,1.0,0.273,0,0.0,"Just half of close contacts given to England's NHS Test and Trace are being reached in some areas, a BBC investigation has found.",1
+0.0,0.0,0.45,0.333,0.748,0.0,0.4,0.273,0,0.0,"Six months after Boris Johnson promised a ""world beating"" system, it can be shown the network is failing in areas with some of the worst infection rates.",0
+0.0,0.0,1.0,0.25,0.421,0.5,0.2,0.273,0,0.0,The research also found no-one from NHS labs was at a key government meeting with private firms about testing.,0
+0.0,0.0,1.0,0.2,0.476,0.0,0.2,0.091,0,0.0,"But the government said the system was ""undoubtedly"" curbing Covid spreading.",0
+0.0,0.0,0.55,0.167,0.515,0.5,0.6,0.273,0,0.0,"It added that NHS Test and Trace was dealing with rising numbers of cases and was working hard to ""refine and improve"" the way it worked.",0
+0.0,0.0,0.85,0.143,0.596,0.0,0.0,0.273,0,0.0,"The companies and their leaders involved with testing had ""hundreds of years"" of experience in the field, it said.",0
+0.0,0.0,-0.85,0.143,1.0,0.5,0.4,0.545,0,0.0,"As ministers struggle to get test-and-trace on track, BBC News spoke to key government figures, scientists and health officials who were involved from the very start to establish what went wrong - and, crucially, whether the system can be fixed to hold the virus in check until vaccines come to the rescue.",0
+0.0,0.0,0.45,0.167,0.453,0.0,0.0,0.182,0,0.0,The investigation found a system performing worst in the areas where it is needed the most and still struggling with the legacy of decisions that were made at the outset.,0
+0.0,0.0,0.3,0.2,0.558,0.5,0.2,0.182,0,0.0,"Further revelations include the fact that a move to more local contact tracing by councils was being undermined by IT problems, leading to a reliance on spreadsheets and delays getting contact details.",1
+0.0,0.0,1.0,0.25,0.457,1.0,0.8,0.364,0,0.0,The name NHS Test and Trace sounds like it is one whole service that is part of the NHS.,1
+0.0,0.0,0.9,0.333,0.209,0.0,0.0,0.091,0,0.0,Nothing could be further from the truth.,0
+0.0,0.0,0.9,0.5,0.411,0.0,0.0,0.091,0,0.0,"It is a complex web of different programmes, led by the civil service, that have been bolted together rapidly.",0
+0.0,0.0,0.3,1.0,0.644,0.5,0.2,0.273,0,0.0,"Private firms play a key role in terms of both testing and tracing, which has meant some of the local expertise available in the NHS, universities and councils has been bypassed.",1
+0.0,0.0,1.0,1.0,0.608,0.333,0.5,1.0,0,0.0,Coronavirus: How to stay cool in a face mask as hot UK weather forecast.,1
+0.0,0.0,0.6,0.5,0.414,1.0,0.167,0.182,0,0.0,You don't really need the TV weather maps turning red to realise that much of the UK is going to be roasting in temperatures above 30C.,1
+1.0,0.0,0.0,0.333,0.928,0.0,0.0,0.364,0,0.0,"But as you slip on your favourite summer top and shorts, you may break out in a hot sweat... as you realise you are also likely to be enduring part of your day in a face mask.",0
+0.0,0.0,1.0,0.25,0.567,0.0,0.0,0.182,0,0.0,"Keeping cool while wearing a facial covering might be more difficult, but we've gathered some tips.",0
+0.0,0.0,0.2,0.2,0.876,0.333,0.833,0.182,0,1.0,"""We have all got to wear masks here, but there's a few things you can do,"" says consultant dermatologist Dr Adil Sheraz, who works at a London NHS hospital.",1
+0.0,0.0,0.85,0.167,0.621,0.0,0.0,0.273,0,0.0,"The top tip for him is to choose a mask made from a breathable material, such as cotton or even bamboo.",0
+0.0,0.0,-0.2,0.143,1.0,0.0,0.0,0.455,0,1.0,"He says although surgical masks - the thin, blue masks that many people are seen wearing - provide protection from spreading the virus, they aren't that breathable and ""they are not the best to use for keeping cool"".",0
+0.0,0.0,0.45,0.125,0.747,0.0,0.0,0.273,0,0.0,But he adds that one downside to cotton masks is that they absorb more fluid and can get damp - so he suggests taking a spare out on hot days.,0
+0.0,0.0,0.95,0.111,0.457,0.0,0.0,0.273,0,0.0,The colour of the mask might also help.,0
+0.0,0.0,0.9,0.1,0.882,0.0,0.333,0.182,0,1.0,"""Consider having a mask that's a lighter colour, rather than a darker one,"" says Dr Sheraz.",0
+0.0,0.0,1.0,0.111,0.519,0.0,0.167,0.091,0,0.0,"Dark colours absorb more light, converting it into heat.",0
+0.0,0.0,1.0,0.125,0.327,0.0,0.0,0.091,0,0.0,What about putting your mask in the freezer before you head out in the heat?,0
+0.0,0.0,0.75,0.143,0.213,0.0,0.333,0.091,0,0.0,Dr Sheraz is unconvinced.,0
+0.0,0.0,0.9,0.167,0.36,0.0,0.0,0.091,0,1.0,"""It's not a bad idea.",0
+0.0,0.0,1.0,0.2,0.482,0.333,0.0,0.273,0,0.0,The only thing I was thinking about is you don't want people get cold burns on their faces.,0
+0.0,0.0,1.0,0.25,0.371,0.667,0.167,0.091,0,1.0,"So I don't think I'd advise that.""",1
+0.0,0.0,0.15,0.333,0.826,0.333,1.0,0.182,0,0.0,"Dr Anil Budh-Raja, a GP who also offers skin and cosmetic treatments at clinics in Birmingham and Chiswick, suggested a towel which has been put in the freezer could be used as a mask.",1
+0.0,0.0,0.45,0.5,0.462,0.0,0.0,0.273,0,0.0,The government says a face covering can be anything which safely the covers the nose and mouth - but of course you must be able to tie it in place.,0
+0.0,0.0,1.0,1.0,0.389,0.0,0.167,0.091,0,0.0,Remember that public towel slips are always embarrassing in the summer heat.,1
+0.0,0.0,1.0,1.0,0.603,0.0,0.5,1.0,0,0.0,Coronavirus: Global Covid-19 death toll passes one million.,1
+0.0,0.0,0.55,0.5,0.691,0.0,0.167,0.5,0,0.0,"The number of people worldwide who have died with Covid-19 has passed one million, researchers say, with many regions still reporting surging numbers of new infections.",0
+0.0,0.0,0.85,0.333,0.555,1.0,1.0,0.2,0,0.0,"The tally by Johns Hopkins University shows that deaths in the US, Brazil and India make up nearly half that total.",1
+0.0,0.0,1.0,0.25,0.314,0.0,0.0,0.1,0,0.0,Experts caution that the true figure is probably much higher.,0
+0.0,0.0,1.0,0.2,0.381,1.0,0.5,0.1,0,1.0,"UN Secretary-General António Guterres called it a ""mind-numbing"" figure and ""an agonising milestone"".",1
+0.0,0.0,0.9,0.167,0.802,0.0,0.0,0.1,0,1.0,"""Yet we must never lose sight of each and every individual life,"" he said in a video message.",0
+0.0,0.0,1.0,0.167,0.381,0.0,0.0,0.1,0,1.0,"""They were fathers and mothers, wives and husbands, brothers and sisters, friends and colleagues.",0
+0.0,0.0,1.0,0.2,0.286,0.0,0.0,0.1,0,1.0,"The pain has been multiplied by the savageness of this disease.""",0
+0.0,0.5,1.0,0.25,0.531,0.0,0.333,0.2,0,0.0,"The development comes nearly 10 months after news of the coronavirus began to emerge from Wuhan, China.",1
+0.0,1.0,1.0,0.333,0.368,0.0,0.0,0.2,0,0.0,The pandemic has since spread to 188 countries with more than 32 million confirmed cases.,1
+0.0,0.0,1.0,0.5,0.273,0.0,0.167,0.2,0,0.0,Lockdowns and other measures to try to stop the virus spreading have thrown many economies into recession.,0
+0.0,0.0,0.25,1.0,1.0,1.0,0.833,0.6,0,0.0,"Meanwhile, efforts to develop an effective vaccine are continuing - although the World Health Organization (WHO) has warned that the death toll could hit two million before one is widely available.",1
+0.0,0.0,1.0,1.0,0.544,0.0,0.333,1.0,0.0,0.0,Coronavirus: Belgium facing 'tsunami' of new infections.,1
+0.0,0.0,0.8,0.5,0.917,0.0,0.167,0.625,0.0,0.0,"Belgium could soon be overwhelmed by new coronavirus infections, the health minister has warned, amid soaring case numbers across the country.",1
+0.0,0.0,0.85,0.333,0.774,0.0,0.333,0.375,0.0,0.5,"Frank Vandenbroucke said new cases were close to a ""tsunami"" where authorities ""no longer control what is happening"".",0
+0.0,0.0,1.0,0.25,0.483,0.0,0.333,0.25,0.0,0.0,New measures to try to halt the spread came into force on Monday.,0
+0.0,0.0,1.0,0.2,0.285,0.0,0.0,0.125,0.0,0.0,All bars and restaurants are closed for four weeks.,0
+0.0,0.0,1.0,0.167,0.604,0.0,0.167,0.375,0.0,0.0,"Infection numbers are climbing throughout Europe, prompting new restrictions across the continent.",0
+0.0,0.0,0.65,0.143,0.786,0.0,0.333,0.25,0.0,0.0,"Italy announced a raft of measures on Sunday after recording its highest daily infection rate, while nine major French cities have been placed under curfew.",0
+0.0,0.0,0.95,0.125,0.534,0.0,0.333,0.25,0.0,0.0,The Czech Republic - which has the highest infection rate on the continent - is considering a full national lockdown.,0
+0.0,0.0,0.85,0.111,0.55,0.0,0.5,0.25,0.0,0.0,And the Republic of Ireland is to move into the highest level of coronavirus restrictions from midnight on Wednesday for six weeks.,0
+0.667,0.0,1.0,0.1,0.576,0.0,0.333,0.375,0.0,0.0,Belgium was one of the worst-hit countries during Europe's first wave of coronavirus earlier this year.,0
+0.333,0.0,0.6,0.091,0.713,0.0,1.0,0.125,1.0,0.0,"Overall it has the third-highest number of Covid-related deaths per 100,000 people globally, behind only Peru and San Marino, according to Johns Hopkins University data.",0
+0.0,0.0,0.2,0.091,0.872,0.0,0.167,0.25,0.0,0.0,"From Monday, under new government restrictions designed to tackle the fresh outbreak, residents will only be allowed to see one other person from outside their household and should work from home if possible.",0
+0.333,0.0,0.95,0.1,0.521,1.0,0.0,0.125,0.0,0.0,A curfew is in place from midnight until 05:00 for the next month and alcohol sales are banned from 20:00.,0
+0.0,0.0,1.0,0.111,0.526,0.0,0.333,0.25,0.0,0.0,"How new lockdowns are changing life across Europe
 Tracking the global pandemic: Where has been hit hardest?",0
-0,0,0.65,0.125,0,0.125,0.424,0.667,"Mr Vandenbroucke described the situation in the capital Brussels and in the south of the country as ""the most dangerous in all of Europe"".",0
-0,0,0.4,0.143,1,0.25,0.918,0.167,"The government ""has only one message to the public: protect yourself, protect your loved ones, so as not to be contaminated"", he told broadcaster RTL.",1
-0,1,0.35,0.167,0,0.5,1,0.333,"According to the Belgian health institute Sciensano, Belgium has recorded an average of 7,876 new daily infections over the last seven days, a 79% rise on the previous week.",1
-0,1,1,0.2,0,0.125,0.671,0.167,"Last Tuesday the country reported 12,051 cases in 24 hours, its highest daily figure since the pandemic began.",1
-0,0,1,0.25,0,0.125,0.56,0.333,"Hospitalisations have also risen, with 2,485 people in hospital with Covid-19 on Monday.",0
-0,0,0.7,0.333,0,0.25,0.757,0.167,"Officials warn that if cases continue to rise at the same rate, Belgium will fill its capacity of 2,000 intensive care beds by mid-November.",0
-0,0,1,0.5,1,0.125,0.743,1,"""The situation is serious,"" Prime Minister Alexander De Croo told RTL.",1
-0,1,1,1,0,0.125,0.523,0.167,"""It is worse than on March 18 when the lockdown was decided.""",1
-0,0,1,1,0,1,0.497,0.182,"'Vaccines for all', and Patel 'bullying' row.",1
-0,0,0.45,0.5,0,0.286,0.691,0.909,Both the Guardian and the Times compare Boris Johnson's refusal to sack Priti Patel to his defence of Dominic Cummings's trip to Barnard Castle during the first lockdown.,1
-0,0,0.45,0.333,0,0.429,0.479,0.091,"For the Times, the prime minister has again expended political capital by standing by a wounded colleague whom he may yet have to dismiss if further damaging details emerge.",1
-0,1,0.3,0.25,0,0.429,1,0.364,"According to the Guardian, No 10's determination to ""brazen out"" the row is another sign that Mr Johnson sees following the rules as unnecessary for ""his gang"".",1
-0,0,1,0.2,0,0.286,0.557,0.182,"The Daily Star also weighs in, asking what it would take to get sacked from this government.",0
-0,0,1,0.167,0,0.286,0.757,0.364,"However, the Sun argues that Labour's ""indignation is a sham"".",0
-0,0,0.45,0.143,0,0.571,0.949,0.273,"Fair enough, it says, that Ms Patel has apologised if some staff felt they were being bullied - rather than being urged to ""raise their game"".",0
-0,0,0.35,0.125,0,0.429,0.722,0,"But some bosses, it says, are highly effective while being demanding and blunt - and the home secretary has been busy ""shaking up"" a ""dysfunctional"" department.",0
-0,0,0.75,0.111,0,0.143,0.222,0.182,The Daily Mail agrees.,0
-0,0,1,0.125,0,0.143,0.186,0,It says no one should condone bullying in the workplace.,0
-0,0,0.65,0.143,0,0.571,0.984,0.364,"But Ms Patel's job requires passion - and not ""haughty Sir Humphreys deploying every trick to impede demanding, but popular, policies"".",1
-0,0,0.85,0.167,1,0.286,0.587,0.091,"A number of front pages celebrate the prospect of what the i weekend bills as ""Vaccines for all by Easter"".",1
-0,0,0.5,0.2,0,0.857,0.772,1,"So it is ""Covid-19 Jabs For All By Spring"" in the Daily Express, and ""Virus Jabs For All By April"" in the Daily Mirror.",1
-0,1,0.35,0.25,1,0.714,0.799,0.091,"A leaked timetable has revealed that care home residents and staff, health workers, and people over 80 could get the Pfizer jab, if it is approved, next month.",1
-0,0,0.85,0.333,0,0.143,0.422,0.273,The Daily Mail reports that the 14-day quarantine rule for people arriving in Britain from most countries will be eased next week.,0
-0,0,0.3,0.5,0,0.286,0.715,0,"The paper says ministers have approved a plan to cut the isolation time to just five days, after which travellers would face tests for the virus that return results within an hour.",0
-0,0,0.9,1,1,0.143,0.68,0.182,"A Whitehall source tells the Mail the move could ""make a huge difference"" to the aviation and travel industries.",1
-0,0,1,1,0,1,0.139,0.154,Coronavirus vaccines: Will any countries get left out?,1
-0,0,1,0.5,0,0.125,0.268,0.077,Health experts say the only solution to the coronavirus pandemic is a global one.,0
-0,0.333,0.9,0.333,0,0.125,0.299,0,There have been more than 55 million cases of the virus confirmed around the world and more than 1.3 million deaths.,0
-0,0,1,0.25,0,0.125,0.132,0,Many hopes are pinned on a vaccine as a solution.,0
-0,0,1,0.2,0,0.25,0.319,0,But there are concerns that poorer nations could get left behind.,0
-0,0,0.65,0.167,0,0,0.342,0,We have spoken to the experts about the main concerns that lie ahead and whether efforts to come up with a fair system will actually work.,0
-0,0,0.25,0.143,0,0.125,0.37,0,"The rush to buy in advance
+0.0,0.0,0.65,0.125,0.424,0.0,0.667,0.125,0.0,0.5,"Mr Vandenbroucke described the situation in the capital Brussels and in the south of the country as ""the most dangerous in all of Europe"".",0
+0.0,0.0,0.4,0.143,0.918,1.0,0.167,0.25,0.0,0.0,"The government ""has only one message to the public: protect yourself, protect your loved ones, so as not to be contaminated"", he told broadcaster RTL.",1
+1.0,1.0,0.35,0.167,1.0,0.0,0.333,0.5,1.0,0.0,"According to the Belgian health institute Sciensano, Belgium has recorded an average of 7,876 new daily infections over the last seven days, a 79% rise on the previous week.",1
+0.333,1.0,1.0,0.2,0.671,0.0,0.167,0.125,1.0,0.0,"Last Tuesday the country reported 12,051 cases in 24 hours, its highest daily figure since the pandemic began.",1
+0.0,0.0,1.0,0.25,0.56,0.0,0.333,0.125,1.0,0.0,"Hospitalisations have also risen, with 2,485 people in hospital with Covid-19 on Monday.",0
+0.0,0.0,0.7,0.333,0.757,0.0,0.167,0.25,1.0,0.0,"Officials warn that if cases continue to rise at the same rate, Belgium will fill its capacity of 2,000 intensive care beds by mid-November.",0
+0.0,0.0,1.0,0.5,0.743,1.0,1.0,0.125,0.0,0.5,"""The situation is serious,"" Prime Minister Alexander De Croo told RTL.",1
+0.333,1.0,1.0,1.0,0.523,0.0,0.167,0.125,0.0,1.0,"""It is worse than on March 18 when the lockdown was decided.""",1
+0.0,0.0,1.0,1.0,0.497,0.0,0.182,1.0,0,0.0,"'Vaccines for all', and Patel 'bullying' row.",1
+0.5,0.0,0.45,0.5,0.691,0.0,0.909,0.286,0,0.0,Both the Guardian and the Times compare Boris Johnson's refusal to sack Priti Patel to his defence of Dominic Cummings's trip to Barnard Castle during the first lockdown.,1
+0.5,0.0,0.45,0.333,0.479,0.0,0.091,0.429,0,0.0,"For the Times, the prime minister has again expended political capital by standing by a wounded colleague whom he may yet have to dismiss if further damaging details emerge.",1
+1.0,1.0,0.3,0.25,1.0,0.0,0.364,0.429,0,1.0,"According to the Guardian, No 10's determination to ""brazen out"" the row is another sign that Mr Johnson sees following the rules as unnecessary for ""his gang"".",1
+0.0,0.0,1.0,0.2,0.557,0.0,0.182,0.286,0,0.0,"The Daily Star also weighs in, asking what it would take to get sacked from this government.",0
+0.0,0.0,1.0,0.167,0.757,0.0,0.364,0.286,0,1.0,"However, the Sun argues that Labour's ""indignation is a sham"".",0
+0.0,0.0,0.45,0.143,0.949,0.0,0.273,0.571,0,1.0,"Fair enough, it says, that Ms Patel has apologised if some staff felt they were being bullied - rather than being urged to ""raise their game"".",0
+0.0,0.0,0.35,0.125,0.722,0.0,0.0,0.429,0,0.0,"But some bosses, it says, are highly effective while being demanding and blunt - and the home secretary has been busy ""shaking up"" a ""dysfunctional"" department.",0
+0.0,0.0,0.75,0.111,0.222,0.0,0.182,0.143,0,0.0,The Daily Mail agrees.,0
+0.0,0.0,1.0,0.125,0.186,0.0,0.0,0.143,0,0.0,It says no one should condone bullying in the workplace.,0
+0.0,0.0,0.65,0.143,0.984,0.0,0.364,0.571,0,1.0,"But Ms Patel's job requires passion - and not ""haughty Sir Humphreys deploying every trick to impede demanding, but popular, policies"".",1
+0.0,0.0,0.85,0.167,0.587,1.0,0.091,0.286,0,1.0,"A number of front pages celebrate the prospect of what the i weekend bills as ""Vaccines for all by Easter"".",1
+0.5,0.0,0.5,0.2,0.772,0.0,1.0,0.857,0,0.0,"So it is ""Covid-19 Jabs For All By Spring"" in the Daily Express, and ""Virus Jabs For All By April"" in the Daily Mirror.",1
+0.5,1.0,0.35,0.25,0.799,1.0,0.091,0.714,0,0.0,"A leaked timetable has revealed that care home residents and staff, health workers, and people over 80 could get the Pfizer jab, if it is approved, next month.",1
+0.5,0.0,0.85,0.333,0.422,0.0,0.273,0.143,0,0.0,The Daily Mail reports that the 14-day quarantine rule for people arriving in Britain from most countries will be eased next week.,0
+0.0,0.0,0.3,0.5,0.715,0.0,0.0,0.286,0,0.0,"The paper says ministers have approved a plan to cut the isolation time to just five days, after which travellers would face tests for the virus that return results within an hour.",0
+0.0,0.0,0.9,1.0,0.68,1.0,0.182,0.143,0,0.0,"A Whitehall source tells the Mail the move could ""make a huge difference"" to the aviation and travel industries.",1
+0.0,0.0,1.0,1.0,0.139,0.0,0.154,1.0,0,0.0,Coronavirus vaccines: Will any countries get left out?,1
+0.0,0.0,1.0,0.5,0.268,0.0,0.077,0.125,0,0.0,Health experts say the only solution to the coronavirus pandemic is a global one.,0
+0.0,0.333,0.9,0.333,0.299,0.0,0.0,0.125,0,0.0,There have been more than 55 million cases of the virus confirmed around the world and more than 1.3 million deaths.,0
+0.0,0.0,1.0,0.25,0.132,0.0,0.0,0.125,0,0.0,Many hopes are pinned on a vaccine as a solution.,0
+0.0,0.0,1.0,0.2,0.319,0.0,0.0,0.25,0,0.0,But there are concerns that poorer nations could get left behind.,0
+0.0,0.0,0.65,0.167,0.342,0.0,0.0,0.0,0,0.0,We have spoken to the experts about the main concerns that lie ahead and whether efforts to come up with a fair system will actually work.,0
+0.0,0.0,0.25,0.143,0.37,0.0,0.0,0.125,0,0.0,"The rush to buy in advance
 Early results indicate that at least two vaccines are highly effective, several others have reached late-stage trials, and many more are at some stage of development.",0
-0,0,1,0.125,0,0.25,0.304,0,"None of these vaccines has been approved yet, but that hasn't stopped countries purchasing doses in advance.",0
-0,0,0.7,0.111,0.667,0.125,0.371,0.385,A key research centre in the US - Duke University in North Carolina - is trying to keep tabs on all the deals being done.,1
-0,0,0.35,0.1,0,0.125,0.515,0,"It estimates that 6.4 billion doses of potential vaccines have already been bought, and another 3.2 billion are either under negotiation or reserved as ""optional expansions of existing deals"".",0
-0,0,-0.4,0.091,0,0,0.58,0.538,"The process of advance purchasing is well established in the pharmaceutical industry, as it can help to incentivise the development of products and fund trials, according to Clare Wenham, assistant professor of global health policy at the London School of Economics and Political Science.",0
-0,0,0.95,0.083,0,0.25,0.107,0,How soon can we expect a working vaccine?,0
-0,0,0.65,0.077,0,0.125,0.492,0,"But it also means that whoever can pay the most at the earliest stage of production gets to the front of the queue, she says.",0
-0,0,0.7,0.071,0,0.25,0.528,0.154,"And Duke's research found that the ""vast majority"" of vaccine doses that have been bought so far are going to high-income countries.",0
-0,0,0.95,0.067,0,0.125,0.192,0,Some middle-income countries with manufacturing capacity have also been able to negotiate large purchase agreements as part of manufacturing deals.,0
-0,0,0.5,0.062,0,0.25,0.28,0.154,While other countries with the infrastructure to host clinical trials - such as Brazil and Mexico - have been able to use that as leverage in procuring future vaccines.,0
-1,0,0.9,0.059,0,0,0.399,0.231,"India's Serum Institute, for example, has committed to keeping half of all doses it produces for in-country distribution.",1
-0,0,0.65,0.056,0,0.125,0.337,0.462,"Meanwhile, Indonesia is partnering with Chinese vaccine developers and Brazil is partnering with the trials run by the University of Oxford and pharmaceutical company AstraZeneca.",0
-0,0,0.9,0.053,0,0.25,0.329,0,"Because we do not yet know which vaccines will work, some countries are hedging their bets by purchasing multiple options.",0
-0,0,0.55,0.05,1,0.125,0.358,0.385,"India, the EU, the US, Canada and the UK are among the countries which have reserved the most doses, according to the latest data.",1
-0,0,-0.15,0.048,0.667,0,0.7,0.385,"The World Health Organization (WHO) told the BBC it was ""understandable that leaders want to protect their own people first - they are accountable to their citizens - but the response to this global pandemic must be collective"".",0
-0,0,-1.4,0.045,0,0.375,0.817,0.231,"Delivering a limited supply to the world
+0.0,0.0,1.0,0.125,0.304,0.0,0.0,0.25,0,0.0,"None of these vaccines has been approved yet, but that hasn't stopped countries purchasing doses in advance.",0
+0.0,0.0,0.7,0.111,0.371,0.667,0.385,0.125,0,0.0,A key research centre in the US - Duke University in North Carolina - is trying to keep tabs on all the deals being done.,1
+0.0,0.0,0.35,0.1,0.515,0.0,0.0,0.125,0,0.5,"It estimates that 6.4 billion doses of potential vaccines have already been bought, and another 3.2 billion are either under negotiation or reserved as ""optional expansions of existing deals"".",0
+1.0,0.0,-0.4,0.091,0.58,0.0,0.538,0.0,0,0.0,"The process of advance purchasing is well established in the pharmaceutical industry, as it can help to incentivise the development of products and fund trials, according to Clare Wenham, assistant professor of global health policy at the London School of Economics and Political Science.",0
+0.0,0.0,0.95,0.083,0.107,0.0,0.0,0.25,0,0.0,How soon can we expect a working vaccine?,0
+0.0,0.0,0.65,0.077,0.492,0.0,0.0,0.125,0,0.0,"But it also means that whoever can pay the most at the earliest stage of production gets to the front of the queue, she says.",0
+0.0,0.0,0.7,0.071,0.528,0.0,0.154,0.25,0,0.0,"And Duke's research found that the ""vast majority"" of vaccine doses that have been bought so far are going to high-income countries.",0
+0.0,0.0,0.95,0.067,0.192,0.0,0.0,0.125,0,0.0,Some middle-income countries with manufacturing capacity have also been able to negotiate large purchase agreements as part of manufacturing deals.,0
+0.0,0.0,0.5,0.062,0.28,0.0,0.154,0.25,0,0.0,While other countries with the infrastructure to host clinical trials - such as Brazil and Mexico - have been able to use that as leverage in procuring future vaccines.,0
+1.0,0.0,0.9,0.059,0.399,0.0,0.231,0.0,0,0.0,"India's Serum Institute, for example, has committed to keeping half of all doses it produces for in-country distribution.",1
+0.0,0.0,0.65,0.056,0.337,0.0,0.462,0.125,0,0.0,"Meanwhile, Indonesia is partnering with Chinese vaccine developers and Brazil is partnering with the trials run by the University of Oxford and pharmaceutical company AstraZeneca.",0
+1.0,0.0,0.9,0.053,0.329,0.0,0.0,0.25,0,0.0,"Because we do not yet know which vaccines will work, some countries are hedging their bets by purchasing multiple options.",0
+1.0,0.0,0.55,0.05,0.358,1.0,0.385,0.125,0,0.0,"India, the EU, the US, Canada and the UK are among the countries which have reserved the most doses, according to the latest data.",1
+1.0,0.0,-0.15,0.048,0.7,0.667,0.385,0.0,0,0.5,"The World Health Organization (WHO) told the BBC it was ""understandable that leaders want to protect their own people first - they are accountable to their citizens - but the response to this global pandemic must be collective"".",0
+0.0,0.0,-1.4,0.045,0.817,0.0,0.231,0.375,0,0.5,"Delivering a limited supply to the world
 Andrea Taylor, who has been leading the Duke analysis, said the combination of advance purchase agreements and limits on the number of doses that can be manufactured in the next couple of years meant ""we're heading into a scenario where the rich countries will have vaccines and the poorer countries are unlikely to have access"".",0
-0,0,0.7,0.048,0,0.125,0.402,0,"Experts note that we do not know yet how many vaccines might make it on to the market, or when they will become available.",0
-0,0,1,0.05,0,0,0.284,0,"Deals are still being made, and questions remain about details of distribution.",0
-0,0,-0.15,0.053,0,0.375,0.645,0.692,"According to Chandrakant Lahariya, co-author of the upcoming book Till We Win: India's Fight Against the Covid-19 Pandemic, availability in poorer countries could depend on how many vaccines are developed, how quickly and where they are manufactured.",0
-0,0,0.2,0.056,0.333,0.25,0.625,0.077,"""There are vaccines developed in India, and with our production capacity I foresee that the price could come down very quickly and availability in low- and middle-income countries will be very high.""",0
-0,0.333,-1.1,0.059,0.667,0.625,1,1,"Moderna Covid vaccine shows nearly 95% protection
+0.0,0.0,0.7,0.048,0.402,0.0,0.0,0.125,0,0.0,"Experts note that we do not know yet how many vaccines might make it on to the market, or when they will become available.",0
+0.0,0.0,1.0,0.05,0.284,0.0,0.0,0.0,0,0.0,"Deals are still being made, and questions remain about details of distribution.",0
+1.0,0.0,-0.15,0.053,0.645,0.0,0.692,0.375,0,0.0,"According to Chandrakant Lahariya, co-author of the upcoming book Till We Win: India's Fight Against the Covid-19 Pandemic, availability in poorer countries could depend on how many vaccines are developed, how quickly and where they are manufactured.",0
+0.0,0.0,0.2,0.056,0.625,0.333,0.077,0.25,0,1.0,"""There are vaccines developed in India, and with our production capacity I foresee that the price could come down very quickly and availability in low- and middle-income countries will be very high.""",0
+0.0,0.333,-1.1,0.059,1.0,0.667,1.0,0.625,0,0.5,"Moderna Covid vaccine shows nearly 95% protection
 UK orders 5m doses of Moderna vaccine
 How a 'warm vaccine' could help India tackle Covid
 Rachel Silverman, a policy analyst at the Center for Global Development think-tank in the US, said the most promising vaccines ""are largely covered by advanced purchase agreements, mostly from wealthy countries"".",1
-0,0,0.25,0.062,0,0.25,0.482,0,"""However, the big asterisk is that if there are many successful vaccines, there will be enough overall supply so that the wealthy countries would not necessarily exercise all their options.""",0
-0,0.333,0.45,0.067,0,0.125,0.65,0.308,"Ms Silverman said recent announcements about some vaccines reaching more than 90% effectiveness - notably those from pharmaceutical companies Pfizer and Moderna - were ""exceptional scientific news"".",0
-0,0,0.1,0.071,0,0.375,0.675,0,"But she added: ""There is very little likelihood that it will make it to low- and middle-income countries by the end of next year, at least in any significant numbers for mass vaccination.""",0
-0,1,0.9,0.077,0,0,0.369,0.077,Pfizer says it hopes to produce up to 50 million doses in 2020 and up to 1.3 billion doses in 2021.,1
-0,0,0.8,0.083,0,0,0.185,0,Each person needs two doses.,0
-0,0,0.7,0.091,0,0,0.713,0.154,"""Just doing the maths… you can see it's not enough to go around [from that alone],"" Ms Silverman said.",0
-1,0,0.75,0.1,0,0.125,0.48,0.154,"However, she says now Moderna has also shown similarly promising results, there is more hope, as even more vaccines could follow.",1
-0,0,0.3,0.111,0,0.25,0.454,0.077,"The Moderna vaccine also has fewer requirements about cold storage, which has been a concern for poorer countries, particularly in warmer areas, and those with remote areas and limited electricity.",0
-0,0,1,0.125,0.333,0,0.325,0,"A new landmark distribution plan
+0.0,0.0,0.25,0.062,0.482,0.0,0.0,0.25,0,1.0,"""However, the big asterisk is that if there are many successful vaccines, there will be enough overall supply so that the wealthy countries would not necessarily exercise all their options.""",0
+0.0,0.333,0.45,0.067,0.65,0.0,0.308,0.125,0,0.5,"Ms Silverman said recent announcements about some vaccines reaching more than 90% effectiveness - notably those from pharmaceutical companies Pfizer and Moderna - were ""exceptional scientific news"".",0
+1.0,0.0,0.1,0.071,0.675,0.0,0.0,0.375,0,0.5,"But she added: ""There is very little likelihood that it will make it to low- and middle-income countries by the end of next year, at least in any significant numbers for mass vaccination.""",0
+0.0,1.0,0.9,0.077,0.369,0.0,0.077,0.0,0,0.0,Pfizer says it hopes to produce up to 50 million doses in 2020 and up to 1.3 billion doses in 2021.,1
+0.0,0.0,0.8,0.083,0.185,0.0,0.0,0.0,0,0.0,Each person needs two doses.,0
+0.0,0.0,0.7,0.091,0.713,0.0,0.154,0.0,0,0.5,"""Just doing the maths… you can see it's not enough to go around [from that alone],"" Ms Silverman said.",0
+1.0,0.0,0.75,0.1,0.48,0.0,0.154,0.125,0,0.0,"However, she says now Moderna has also shown similarly promising results, there is more hope, as even more vaccines could follow.",1
+0.0,0.0,0.3,0.111,0.454,0.0,0.077,0.25,0,0.0,"The Moderna vaccine also has fewer requirements about cold storage, which has been a concern for poorer countries, particularly in warmer areas, and those with remote areas and limited electricity.",0
+0.0,0.0,1.0,0.125,0.325,0.333,0.0,0.0,0,0.0,"A new landmark distribution plan
 Of course inequality in global health is nothing new.",0
-0,0.333,1,0.143,0.333,0.125,0.257,0.077,The WHO estimates that nearly 20 million infants have insufficient access to vaccines each year.,1
-0,0.333,0.75,0.167,0,0.125,0.372,0,"Research shows that during the 2009 ""swine flu"" pandemic the supply of vaccines was dominated by advance purchase agreements with wealthy states.",0
-0,0.667,0.6,0.2,0,0,0.675,0,"""We talk about the 90/10 divide in global health - 90% of the world's pharmaceutical products serve 10% of the world's population.",0
-0,0,1,0.25,0,0,0.419,0.154,"This is part of that story,"" Ms Wenham said.",0
-1,0,-0.8,0.333,0,0.25,0.663,0.077,"""But there's a difference between the fact that the market has loads and loads of erectile dysfunction drugs but no cures for Dengue fever... to us all now being in the same boat and us all facing exactly the same need for the same product, and that product being finite.""",0
-0,0,1,0.5,0.333,0.375,0.28,0.077,A landmark global vaccine plan known as Covax is seeking to ensure an equitable distribution of future coronavirus vaccines.,1
-0,0.333,-0.05,1,0.667,0.375,0.592,0.538,"The joint initiative - between the Gavi vaccines alliance, the WHO and the Coalition for Epidemic Preparedness Innovations (CEPI) - aims to procure enough vaccines for participating countries to inoculate at least 20% of their populations.",1
-0,0,0.8,1,1,0.87,0.484,0.364,"Success from two leading coronavirus vaccine programs likely means other frontrunners will also show strong protection against COVID-19, Bill Gates said Tuesday.",1
-0,0,-2.25,0.5,1,1,1,1,"The fact that two coronavirus vaccines recently showed strong protection against COVID-19 bodes well for other leading programs led by AstraZeneca, Novavax, and Johnson & Johnson, Bill Gates said Tuesday.The billionaire Microsoft founder and philanthropist said it will be easier to boost manufacturing and distribute these other shots to the entire world, particularly developing nations.The vaccine space has seen a flurry of good news in recent days, marked by overwhelming success in late-stage trials by both Pfizer and Moderna.",1
-0,0,1,0.333,0,0.304,0.189,0,The studies showed both vaccines provided strong protection against the virus compared to a placebo.,0
-1,0,-0.1,0.25,0,0.478,0.755,0.909,"""With the very good news from Pfizer and Moderna, we think it's now likely that AstraZeneca, Novavax, and Johnson & Johnson will also likely show very strong efficacy,"" Gates told journalist Andrew Ross Sorkin.",1
-0,0,1,0.2,0,0.13,0.238,0.091,"While Gates didn't delve into the scientific rationale behind that prediction, many scientists hold the same hope.",0
-0,0,1,0.2,0,0.174,0.158,0,All the leading vaccine candidates target the same part of the coronavirus in the spike protein.,0
-0,0,0.6,0.25,0,0.13,0.305,0,"Early-stage clinical trials showed all the shots elicited varying levels of neutralizing antibodies, virus-fighting proteins that play a critical role in the body's immune response.",0
-0,0,0.35,0.333,0,0.13,0.191,0,But the only way to know if that translates to protection is by running late-stage trials that enroll tens of thousands for volunteers who receive either the experimental shot or placebo injections.,0
-0,0,1,0.5,1,0.261,0.212,0,The scientific success has turned the top challenges surrounding a COVID-19 vaccine to the manufacturing and distribution front.,0
-0,1,0.85,1,0,0.217,0.263,0,"Gates noted that the world will be supply constrained for 2021, but these additional vaccines will prove valuable on that front.",0
-0,0,1,1,0.333,1,0.497,0.5,World Health Assembly charts course for COVID-19 response and global health priorities.,1
-0,0,0.6,0.5,0.667,0.455,0.904,0.625,"As health leaders prepare to gather for a virtual session of the resumed 73rd World Health Assembly (WHA), WHO has three messages to share.",1
-0,0,1,0.333,0.333,0.182,0.479,0,"First, we can beat COVID-19 with science, solutions and solidarity.",1
-1,1,0.8,0.25,0.667,0.182,0.545,0.125,"More than 47 million COVID-19 cases have now been reported to WHO, and more than 1.2 million people have lost their lives.",0
-0,0,0.8,0.2,0,0.182,0.471,0,"Although this is a global crisis, many countries and cities have successfully prevented or controlled transmission with a comprehensive, evidence-based approach.",1
-0,0,-0.05,0.167,0,0.273,0.545,0,"For the first time, the world has rallied behind a plan to accelerate the development of the vaccines, diagnostics and therapeutics we need, and to ensure they are available to all countries on the basis of equity.",0
-0,0,1,0.143,0.667,0.182,0.504,0.625,The Access to COVID-19 Tools (ACT) Accelerator is delivering real results.,0
-1,0,1,0.125,0,0.182,0.516,0.125,"Second, we must not backslide on our critical health goals.",1
-0,0,1,0.125,0.333,0.273,0.549,0.125,"The COVID-19 pandemic is a sobering reminder that health is the foundation of social, economic and political stability.",0
-0,0,0.45,0.143,0.333,0.091,0.569,0.125,"It reminds us why WHO’s ‘triple billion’ targets are so important, and why countries must pursue them with even more determination, collaboration and innovation.",0
-0,1,-0.35,0.167,0,0.091,0.762,0.875,"Since May, Member States have adopted a number of decisions – the Immunization Agenda 2030, the Decade of Healthy Ageing 2020-2030, as well as initiatives to tackle cervical cancer, tuberculosis, eye care, food safety, intellectual property and influenza preparedness.",1
-0,1,-0.8,0.2,0.333,0.364,0.894,1,"The resumed session will discuss a 10-year-plan for addressing neglected tropical diseases, as well as efforts to address meningitis, epilepsy and other neurological disorders, maternal infant and young child nutrition, digital health, and the WHO Global Code of Practice on the International Recruitment of Health Personnel, adopted in 2010.",0
-1,0,1,0.25,0,0.091,0.427,0,"Third, we must prepare for the next pandemic now.",1
-0,0,0.4,0.333,0,0.182,0.667,0.25,We’ve seen this past year that countries with robust health emergency preparedness infrastructure have been able to act quickly to contain and control the spread of the SARS-CoV-2 virus.,0
-0,1,0.15,0.5,1,0.364,1,0.875,"The WHA will consider a draft resolution (EB146.R10) that strengthens Member States’ preparedness for health emergencies, such as COVID-19, through more robust compliance with the International Health Regulations (2005).",0
-0,0,0.5,1,0.333,0.364,0.53,0.125,This resolution calls on the global health community to ensure that all countries are better equipped to detect and respond to cases of COVID-19 and other dangerous infectious diseases.,0
-0,0,1,1,0.25,1,0.427,0.2,"
-Ensuring Cambodia has supplies and access to COVID-19 tools.",0
-0,0,0.6,0.5,0,0.286,0.688,0.3,"“As long as the virus continues to circulate anywhere, no country and no one is safe, including in Cambodia,” said Dr. Li.",1
-0,0,-0.65,0.333,0.75,0.429,1,0.4,"“We must continue to detect, test, isolate and care for patients, and trace and quarantine their contacts—and to do this we must have sufficient diagnostics, PPE, and medical equipment.” Beyond procuring supplies, WHO and the UN system are also strengthening the global supply chain.",1
-0,0,0.5,0.25,0.75,0.714,0.674,0.9,"The COVID-19 Supply Chain System, coordinated by WHO and the World Food Programme, was established to significantly scale up and speed the delivery of essential COVID-19 supplies.",0
-0,1,0.35,0.2,0.5,0.714,0.815,0.7,"As of 13 August, 83 countries, including Cambodia, had submitted 383 requests for supplies with a total estimated value of US $163 million through the COVID-19 Supply Portal.",0
-0,0,0.9,0.167,0.25,0.571,0.532,0.1,"In addition to medical, lab and PPE supplies, fair access to tools such as treatments and vaccines is vital.",0
-0,0.25,0.15,0.143,1,0.857,0.833,0.8,"On 24 April, WHO launched the Access to COVID-19 Tools (ACT) Accelerator, which is a global collaboration to accelerate development, production and equitable access to COVID-19 tests, treatments and vaccines.",1
-0,0,0.5,0.125,0.75,0.143,0.555,0.6,"COVAX Facility, the vaccines pillar of the ACT-Accelerator co-led by WHO, Gavi and CEPI, is speeding up the search for an effective vaccine for all countries.",0
-0,0.5,0.1,0.125,0,0.286,0.588,0,"At the same time, it is supporting the building of manufacturing capabilities, and buying supply ahead of time so that 2 billion doses can be?rapidly and equitably distributed by the end of 2021.",0
-0,0,0.9,0.143,0,0.143,0.342,0,Vaccines are a global public health good.,0
-0,0,0.35,0.167,0.5,0.143,0.761,0.6,"When a safe and effective vaccine is available, Gavi’s COVAX Advance Market Commitment (AMC), will be used to pay for the doses allocated to developing countries.",0
-0,0,0.95,0.2,0.5,0.286,0.383,0.3,Cambodia is eligible to receive COVAX AMC support.,0
-0,0,-0.25,0.25,1,0.857,0.982,1,"In addition to accelerating research and ensuring manufacturing capacity for COVID-19 vaccines, WHO has supported the Royal Government of Cambodia to strengthen its regulatory capacity, draft a COVID-19 National Deployment and Vaccination Plan (NDVP) and assess immunization supply chain management.",1
-0,0,0.95,0.333,0.25,0.286,0.356,0,This planning will be essential to get a successful COVID-19 vaccine to priority groups in an equitable and effective manner.,0
-0,0,0.9,0.5,0.5,0.429,0.474,0.1,"WHO and partners continue to work with suppliers to secure commitments for supplies needed for COVID-19 prevention, preparedness and response.",0
-0,0,1,1,0.25,0.429,0.642,0.2,This work is crucial in order to minimize the risk of COVID-19 infection and protect public health in Cambodia.,0
-0,0,1,1,0.333,1,0.432,0.214,New Zealand takes early and hard action to tackle COVID-19.,1
-0,1,0.15,0.5,0.333,0.375,0.648,0.214,"Three days after WHO declared the coronavirus outbreak a public health emergency of international concern on 30 January 2020, New Zealand began introducing disease prevention measures and continued strengthening them in the weeks that followed.",1
-0,0,1,0.333,0,0.125,0.213,0.143,He says their strategy was influenced by a report from the WHO–China joint mission in February.,0
-0,0,0.7,0.25,0,0.125,0.581,0.143,"“This report, including the observation that, ‘the key learning from China is speed – it’s all about the speed.",0
-0,0,-0.5,0.2,0,0.5,0.786,0.286,"The faster you can find the cases, isolate the cases, and track their close contacts, the more successful you’re going to be,’ helped influence New Zealand’s strategy to ‘go early and go hard’,” says Dr Bloomfield.",0
-0,0,0.55,0.167,0.333,0.5,0.633,0.357,"Observing the spiralling epidemic and its devastating impacts in Europe, he says the Government was “determined to minimize the impact of COVID-19” in New Zealand.",0
-0,0,1,0.143,0,0.125,0.276,0.143,"From late February through March, the country progressively tightened restrictions.",0
-0,0,0.75,0.125,0,0.125,0.466,0,"“It was recognized that implementing this strategy would have significant economic costs, but so would a major outbreak,” he explains.",0
-0,0.5,-1.4,0.111,0.333,0.625,1,0.857,"“So New Zealand took a precautionary approach and on 26 March, apart from essential workers, the entire country was required to self-quarantine at home.” WHO Regional Director for the Western Pacific, Dr Takeshi Kasai, explains that New Zealand combined strict physical distancing with strong testing, contact tracing, clinical management of those infected, and clear and regular public communication.",1
-0,0,1,0.1,0,0.125,0.213,0,The country also took steps to cushion the economic blow.,0
-0,0,0.85,0.111,0,0.375,0.662,0.214,"“New Zealand certainly benefited from being a high-income, island country with an advanced health system,"" says Dr Kasai.",0
-0,0,1,0.125,0,0.25,0.405,0,"""But they didn’t take anything for granted,” he adds.",0
-0,0,1,0.143,0.333,0.25,0.384,0.143,“They worked concertedly to limit and stop COVID-19 on their shores and support other countries in the Region.,0
-0,0.5,0.5,0.167,0,0.375,0.689,0.214,"”The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
-0,0,-0.45,0.5,1,0.625,0.823,1,Concerned that COVID-19 could be transmitted through New Zealand to Pacific island countries – which are some of the only places still free of COVID-19 – the Ministry of Health and Ministry of Foreign Affairs and Trade worked closely with WHO to support their neighbours in the Pacific.,2
-0,0,1,1,0,0.125,0.346,0,This included procuring supplies and providing training to health staff within those countries and via remote support.,0
-0,0.5,0.55,0.333,0,0.375,0.689,0.214,"The Government of New Zealand called on the entire population to unite as a “team of 5 million” to protect their families, friends and neighbours.",0
-0,0,1,1,0,1,0.448,0.6,Coronavirus: Inside test-and-trace - how the 'world beater' went wrong.,0
-0,0,0.7,0.5,1,0.273,0.77,1,"Just half of close contacts given to England's NHS Test and Trace are being reached in some areas, a BBC investigation has found.",1
-0,0,0.45,0.333,0,0.273,0.748,0.4,"Six months after Boris Johnson promised a ""world beating"" system, it can be shown the network is failing in areas with some of the worst infection rates.",0
-0,0,1,0.25,0.5,0.273,0.421,0.2,The research also found no-one from NHS labs was at a key government meeting with private firms about testing.,0
-0,0,1,0.2,0,0.091,0.476,0.2,"But the government said the system was ""undoubtedly"" curbing Covid spreading.",0
-0,0,0.55,0.167,0.5,0.273,0.515,0.6,"It added that NHS Test and Trace was dealing with rising numbers of cases and was working hard to ""refine and improve"" the way it worked.",0
-0,0,0.85,0.143,0,0.273,0.596,0,"The companies and their leaders involved with testing had ""hundreds of years"" of experience in the field, it said.",0
-0,0,-0.85,0.143,0.5,0.545,1,0.4,"As ministers struggle to get test-and-trace on track, BBC News spoke to key government figures, scientists and health officials who were involved from the very start to establish what went wrong - and, crucially, whether the system can be fixed to hold the virus in check until vaccines come to the rescue.",0
-0,0,0.45,0.167,0,0.182,0.453,0,The investigation found a system performing worst in the areas where it is needed the most and still struggling with the legacy of decisions that were made at the outset.,0
-0,0,0.3,0.2,0.5,0.182,0.558,0.2,"Further revelations include the fact that a move to more local contact tracing by councils was being undermined by IT problems, leading to a reliance on spreadsheets and delays getting contact details.",1
-0,0,1,0.25,1,0.364,0.457,0.8,The name NHS Test and Trace sounds like it is one whole service that is part of the NHS.,1
-0,0,0.9,0.333,0,0.091,0.209,0,Nothing could be further from the truth.,0
-0,0,0.9,0.5,0,0.091,0.411,0,"It is a complex web of different programmes, led by the civil service, that have been bolted together rapidly.",0
-0,0,0.3,1,0.5,0.273,0.644,0.2,"Private firms play a key role in terms of both testing and tracing, which has meant some of the local expertise available in the NHS, universities and councils has been bypassed.",1
-0,0,1,1,0.333,1,0.608,0.5,Coronavirus: How to stay cool in a face mask as hot UK weather forecast.,1
-0,0,0.6,0.5,1,0.182,0.414,0.167,You don't really need the TV weather maps turning red to realise that much of the UK is going to be roasting in temperatures above 30C.,1
-0,0,0,0.333,0,0.364,0.928,0,"But as you slip on your favourite summer top and shorts, you may break out in a hot sweat... as you realise you are also likely to be enduring part of your day in a face mask.",0
-0,0,1,0.25,0,0.182,0.567,0,"Keeping cool while wearing a facial covering might be more difficult, but we've gathered some tips.",0
-0,0,0.2,0.2,0.333,0.182,0.876,0.833,"""We have all got to wear masks here, but there's a few things you can do,"" says consultant dermatologist Dr Adil Sheraz, who works at a London NHS hospital.",1
-0,0,0.85,0.167,0,0.273,0.621,0,"The top tip for him is to choose a mask made from a breathable material, such as cotton or even bamboo.",0
-0,0,-0.2,0.143,0,0.455,1,0,"He says although surgical masks - the thin, blue masks that many people are seen wearing - provide protection from spreading the virus, they aren't that breathable and ""they are not the best to use for keeping cool"".",0
-0,0,0.45,0.125,0,0.273,0.747,0,But he adds that one downside to cotton masks is that they absorb more fluid and can get damp - so he suggests taking a spare out on hot days.,0
-0,0,0.95,0.111,0,0.273,0.457,0,The colour of the mask might also help.,0
-0,0,0.9,0.1,0,0.182,0.882,0.333,"""Consider having a mask that's a lighter colour, rather than a darker one,"" says Dr Sheraz.",0
-0,0,1,0.111,0,0.091,0.519,0.167,"Dark colours absorb more light, converting it into heat.",0
-0,0,1,0.125,0,0.091,0.327,0,What about putting your mask in the freezer before you head out in the heat?,0
-0,0,0.75,0.143,0,0.091,0.213,0.333,Dr Sheraz is unconvinced.,0
-0,0,0.9,0.167,0,0.091,0.36,0,"""It's not a bad idea.",0
-0,0,1,0.2,0.333,0.273,0.482,0,The only thing I was thinking about is you don't want people get cold burns on their faces.,0
-0,0,1,0.25,0.667,0.091,0.371,0.167,"So I don't think I'd advise that.""",1
-0,0,0.15,0.333,0.333,0.182,0.826,1,"Dr Anil Budh-Raja, a GP who also offers skin and cosmetic treatments at clinics in Birmingham and Chiswick, suggested a towel which has been put in the freezer could be used as a mask.",1
-0,0,0.45,0.5,0,0.273,0.462,0,The government says a face covering can be anything which safely the covers the nose and mouth - but of course you must be able to tie it in place.,0
-0,0,1,1,0,0.091,0.389,0.167,Remember that public towel slips are always embarrassing in the summer heat.,1
-0,0,1,1,0,1,0.603,0.5,Coronavirus: Global Covid-19 death toll passes one million.,1
-0,0,0.55,0.5,0,0.5,0.691,0.167,"The number of people worldwide who have died with Covid-19 has passed one million, researchers say, with many regions still reporting surging numbers of new infections.",0
-0,0,0.85,0.333,1,0.2,0.555,1,"The tally by Johns Hopkins University shows that deaths in the US, Brazil and India make up nearly half that total.",1
-0,0,1,0.25,0,0.1,0.314,0,Experts caution that the true figure is probably much higher.,0
-0,0,1,0.2,1,0.1,0.381,0.5,"UN Secretary-General António Guterres called it a ""mind-numbing"" figure and ""an agonising milestone"".",1
-0,0,0.9,0.167,0,0.1,0.802,0,"""Yet we must never lose sight of each and every individual life,"" he said in a video message.",0
-0,0,1,0.167,0,0.1,0.381,0,"""They were fathers and mothers, wives and husbands, brothers and sisters, friends and colleagues.",0
-0,0,1,0.2,0,0.1,0.286,0,"The pain has been multiplied by the savageness of this disease.""",0
-0,0.5,1,0.25,0,0.2,0.531,0.333,"The development comes nearly 10 months after news of the coronavirus began to emerge from Wuhan, China.",1
-0,1,1,0.333,0,0.2,0.368,0,The pandemic has since spread to 188 countries with more than 32 million confirmed cases.,1
-0,0,1,0.5,0,0.2,0.273,0.167,Lockdowns and other measures to try to stop the virus spreading have thrown many economies into recession.,0
-0,0,0.25,1,1,0.6,1,0.833,"Meanwhile, efforts to develop an effective vaccine are continuing - although the World Health Organization (WHO) has warned that the death toll could hit two million before one is widely available.",1
-0,0,1,1,0,1,0.544,0.333,Coronavirus: Belgium facing 'tsunami' of new infections.,1
-0,0,0.8,0.5,0,0.625,0.917,0.167,"Belgium could soon be overwhelmed by new coronavirus infections, the health minister has warned, amid soaring case numbers across the country.",1
-0,0,0.85,0.333,0,0.375,0.774,0.333,"Frank Vandenbroucke said new cases were close to a ""tsunami"" where authorities ""no longer control what is happening"".",0
-0,0,1,0.25,0,0.25,0.483,0.333,New measures to try to halt the spread came into force on Monday.,0
-0,0,1,0.2,0,0.125,0.285,0,All bars and restaurants are closed for four weeks.,0
-0,0,1,0.167,0,0.375,0.604,0.167,"Infection numbers are climbing throughout Europe, prompting new restrictions across the continent.",0
-0,0,0.65,0.143,0,0.25,0.786,0.333,"Italy announced a raft of measures on Sunday after recording its highest daily infection rate, while nine major French cities have been placed under curfew.",0
-0,0,0.95,0.125,0,0.25,0.534,0.333,The Czech Republic - which has the highest infection rate on the continent - is considering a full national lockdown.,0
-0,0,0.85,0.111,0,0.25,0.55,0.5,And the Republic of Ireland is to move into the highest level of coronavirus restrictions from midnight on Wednesday for six weeks.,0
-0,0,1,0.1,0,0.375,0.576,0.333,Belgium was one of the worst-hit countries during Europe's first wave of coronavirus earlier this year.,0
-0,0,0.6,0.091,0,0.125,0.713,1,"Overall it has the third-highest number of Covid-related deaths per 100,000 people globally, behind only Peru and San Marino, according to Johns Hopkins University data.",0
-0,0,0.2,0.091,0,0.25,0.872,0.167,"From Monday, under new government restrictions designed to tackle the fresh outbreak, residents will only be allowed to see one other person from outside their household and should work from home if possible.",0
-0,0,0.95,0.1,1,0.125,0.521,0,A curfew is in place from midnight until 05:00 for the next month and alcohol sales are banned from 20:00.,0
-0,0,1,0.111,0,0.25,0.526,0.333,"How new lockdowns are changing life across Europe
-Tracking the global pandemic: Where has been hit hardest?",0
-0,0,0.65,0.125,0,0.125,0.424,0.667,"Mr Vandenbroucke described the situation in the capital Brussels and in the south of the country as ""the most dangerous in all of Europe"".",0
-0,0,0.4,0.143,1,0.25,0.918,0.167,"The government ""has only one message to the public: protect yourself, protect your loved ones, so as not to be contaminated"", he told broadcaster RTL.",1
-0,1,0.35,0.167,0,0.5,1,0.333,"According to the Belgian health institute Sciensano, Belgium has recorded an average of 7,876 new daily infections over the last seven days, a 79% rise on the previous week.",1
-0,1,1,0.2,0,0.125,0.671,0.167,"Last Tuesday the country reported 12,051 cases in 24 hours, its highest daily figure since the pandemic began.",1
-0,0,1,0.25,0,0.125,0.56,0.333,"Hospitalisations have also risen, with 2,485 people in hospital with Covid-19 on Monday.",0
-0,0,0.7,0.333,0,0.25,0.757,0.167,"Officials warn that if cases continue to rise at the same rate, Belgium will fill its capacity of 2,000 intensive care beds by mid-November.",0
-0,0,1,0.5,1,0.125,0.743,1,"""The situation is serious,"" Prime Minister Alexander De Croo told RTL.",1
-0,1,1,1,0,0.125,0.523,0.167,"""It is worse than on March 18 when the lockdown was decided.""",1
-0,0,1,1,0,1,0.497,0.182,"'Vaccines for all', and Patel 'bullying' row.",1
-0,0,0.45,0.5,0,0.286,0.691,0.909,Both the Guardian and the Times compare Boris Johnson's refusal to sack Priti Patel to his defence of Dominic Cummings's trip to Barnard Castle during the first lockdown.,1
-0,0,0.45,0.333,0,0.429,0.479,0.091,"For the Times, the prime minister has again expended political capital by standing by a wounded colleague whom he may yet have to dismiss if further damaging details emerge.",1
-0,1,0.3,0.25,0,0.429,1,0.364,"According to the Guardian, No 10's determination to ""brazen out"" the row is another sign that Mr Johnson sees following the rules as unnecessary for ""his gang"".",1
-0,0,1,0.2,0,0.286,0.557,0.182,"The Daily Star also weighs in, asking what it would take to get sacked from this government.",0
-0,0,1,0.167,0,0.286,0.757,0.364,"However, the Sun argues that Labour's ""indignation is a sham"".",0
-0,0,0.45,0.143,0,0.571,0.949,0.273,"Fair enough, it says, that Ms Patel has apologised if some staff felt they were being bullied - rather than being urged to ""raise their game"".",0
-0,0,0.35,0.125,0,0.429,0.722,0,"But some bosses, it says, are highly effective while being demanding and blunt - and the home secretary has been busy ""shaking up"" a ""dysfunctional"" department.",0
-0,0,0.75,0.111,0,0.143,0.222,0.182,The Daily Mail agrees.,0
-0,0,1,0.125,0,0.143,0.186,0,It says no one should condone bullying in the workplace.,0
-0,0,0.65,0.143,0,0.571,0.984,0.364,"But Ms Patel's job requires passion - and not ""haughty Sir Humphreys deploying every trick to impede demanding, but popular, policies"".",1
-0,0,0.85,0.167,1,0.286,0.587,0.091,"A number of front pages celebrate the prospect of what the i weekend bills as ""Vaccines for all by Easter"".",1
-0,0,0.5,0.2,0,0.857,0.772,1,"So it is ""Covid-19 Jabs For All By Spring"" in the Daily Express, and ""Virus Jabs For All By April"" in the Daily Mirror.",1
-0,1,0.35,0.25,1,0.714,0.799,0.091,"A leaked timetable has revealed that care home residents and staff, health workers, and people over 80 could get the Pfizer jab, if it is approved, next month.",1
-0,0,0.85,0.333,0,0.143,0.422,0.273,The Daily Mail reports that the 14-day quarantine rule for people arriving in Britain from most countries will be eased next week.,0
-0,0,0.3,0.5,0,0.286,0.715,0,"The paper says ministers have approved a plan to cut the isolation time to just five days, after which travellers would face tests for the virus that return results within an hour.",0
-0,0,0.9,1,1,0.143,0.68,0.182,"A Whitehall source tells the Mail the move could ""make a huge difference"" to the aviation and travel industries.",1
-0,0,1,1,0,1,0.139,0.154,Coronavirus vaccines: Will any countries get left out?,1
-0,0,1,0.5,0,0.125,0.268,0.077,Health experts say the only solution to the coronavirus pandemic is a global one.,0
-0,0.333,0.9,0.333,0,0.125,0.299,0,There have been more than 55 million cases of the virus confirmed around the world and more than 1.3 million deaths.,0
-0,0,1,0.25,0,0.125,0.132,0,Many hopes are pinned on a vaccine as a solution.,0
-0,0,1,0.2,0,0.25,0.319,0,But there are concerns that poorer nations could get left behind.,0
-0,0,0.65,0.167,0,0,0.342,0,We have spoken to the experts about the main concerns that lie ahead and whether efforts to come up with a fair system will actually work.,0
-0,0,0.25,0.143,0,0.125,0.37,0,"The rush to buy in advance
-Early results indicate that at least two vaccines are highly effective, several others have reached late-stage trials, and many more are at some stage of development.",0
-0,0,1,0.125,0,0.25,0.304,0,"None of these vaccines has been approved yet, but that hasn't stopped countries purchasing doses in advance.",0
-0,0,0.7,0.111,0.667,0.125,0.371,0.385,A key research centre in the US - Duke University in North Carolina - is trying to keep tabs on all the deals being done.,1
-0,0,0.35,0.1,0,0.125,0.515,0,"It estimates that 6.4 billion doses of potential vaccines have already been bought, and another 3.2 billion are either under negotiation or reserved as ""optional expansions of existing deals"".",0
-0,0,-0.4,0.091,0,0,0.58,0.538,"The process of advance purchasing is well established in the pharmaceutical industry, as it can help to incentivise the development of products and fund trials, according to Clare Wenham, assistant professor of global health policy at the London School of Economics and Political Science.",0
-0,0,0.95,0.083,0,0.25,0.107,0,How soon can we expect a working vaccine?,0
-0,0,0.65,0.077,0,0.125,0.492,0,"But it also means that whoever can pay the most at the earliest stage of production gets to the front of the queue, she says.",0
-0,0,0.7,0.071,0,0.25,0.528,0.154,"And Duke's research found that the ""vast majority"" of vaccine doses that have been bought so far are going to high-income countries.",0
-0,0,0.95,0.067,0,0.125,0.192,0,Some middle-income countries with manufacturing capacity have also been able to negotiate large purchase agreements as part of manufacturing deals.,0
-0,0,0.5,0.062,0,0.25,0.28,0.154,While other countries with the infrastructure to host clinical trials - such as Brazil and Mexico - have been able to use that as leverage in procuring future vaccines.,0
-1,0,0.9,0.059,0,0,0.399,0.231,"India's Serum Institute, for example, has committed to keeping half of all doses it produces for in-country distribution.",1
-0,0,0.65,0.056,0,0.125,0.337,0.462,"Meanwhile, Indonesia is partnering with Chinese vaccine developers and Brazil is partnering with the trials run by the University of Oxford and pharmaceutical company AstraZeneca.",0
-0,0,0.9,0.053,0,0.25,0.329,0,"Because we do not yet know which vaccines will work, some countries are hedging their bets by purchasing multiple options.",0
-0,0,0.55,0.05,1,0.125,0.358,0.385,"India, the EU, the US, Canada and the UK are among the countries which have reserved the most doses, according to the latest data.",1
-0,0,-0.15,0.048,0.667,0,0.7,0.385,"The World Health Organization (WHO) told the BBC it was ""understandable that leaders want to protect their own people first - they are accountable to their citizens - but the response to this global pandemic must be collective"".",0
-0,0,-1.4,0.045,0,0.375,0.817,0.231,"Delivering a limited supply to the world
-Andrea Taylor, who has been leading the Duke analysis, said the combination of advance purchase agreements and limits on the number of doses that can be manufactured in the next couple of years meant ""we're heading into a scenario where the rich countries will have vaccines and the poorer countries are unlikely to have access"".",0
-0,0,0.7,0.048,0,0.125,0.402,0,"Experts note that we do not know yet how many vaccines might make it on to the market, or when they will become available.",0
-0,0,1,0.05,0,0,0.284,0,"Deals are still being made, and questions remain about details of distribution.",0
-0,0,-0.15,0.053,0,0.375,0.645,0.692,"According to Chandrakant Lahariya, co-author of the upcoming book Till We Win: India's Fight Against the Covid-19 Pandemic, availability in poorer countries could depend on how many vaccines are developed, how quickly and where they are manufactured.",0
-0,0,0.2,0.056,0.333,0.25,0.625,0.077,"""There are vaccines developed in India, and with our production capacity I foresee that the price could come down very quickly and availability in low- and middle-income countries will be very high.""",0
-0,0.333,-1.1,0.059,0.667,0.625,1,1,"Moderna Covid vaccine shows nearly 95% protection
-UK orders 5m doses of Moderna vaccine
-How a 'warm vaccine' could help India tackle Covid
-Rachel Silverman, a policy analyst at the Center for Global Development think-tank in the US, said the most promising vaccines ""are largely covered by advanced purchase agreements, mostly from wealthy countries"".",1
-0,0,0.25,0.062,0,0.25,0.482,0,"""However, the big asterisk is that if there are many successful vaccines, there will be enough overall supply so that the wealthy countries would not necessarily exercise all their options.""",0
-0,0.333,0.45,0.067,0,0.125,0.65,0.308,"Ms Silverman said recent announcements about some vaccines reaching more than 90% effectiveness - notably those from pharmaceutical companies Pfizer and Moderna - were ""exceptional scientific news"".",0
-0,0,0.1,0.071,0,0.375,0.675,0,"But she added: ""There is very little likelihood that it will make it to low- and middle-income countries by the end of next year, at least in any significant numbers for mass vaccination.""",0
-0,1,0.9,0.077,0,0,0.369,0.077,Pfizer says it hopes to produce up to 50 million doses in 2020 and up to 1.3 billion doses in 2021.,1
-0,0,0.8,0.083,0,0,0.185,0,Each person needs two doses.,0
-0,0,0.7,0.091,0,0,0.713,0.154,"""Just doing the maths… you can see it's not enough to go around [from that alone],"" Ms Silverman said.",0
-1,0,0.75,0.1,0,0.125,0.48,0.154,"However, she says now Moderna has also shown similarly promising results, there is more hope, as even more vaccines could follow.",1
-0,0,0.3,0.111,0,0.25,0.454,0.077,"The Moderna vaccine also has fewer requirements about cold storage, which has been a concern for poorer countries, particularly in warmer areas, and those with remote areas and limited electricity.",0
-0,0,1,0.125,0.333,0,0.325,0,"A new landmark distribution plan
-Of course inequality in global health is nothing new.",0
-0,0.333,1,0.143,0.333,0.125,0.257,0.077,The WHO estimates that nearly 20 million infants have insufficient access to vaccines each year.,1
-0,0.333,0.75,0.167,0,0.125,0.372,0,"Research shows that during the 2009 ""swine flu"" pandemic the supply of vaccines was dominated by advance purchase agreements with wealthy states.",0
-0,0.667,0.6,0.2,0,0,0.675,0,"""We talk about the 90/10 divide in global health - 90% of the world's pharmaceutical products serve 10% of the world's population.",0
-0,0,1,0.25,0,0,0.419,0.154,"This is part of that story,"" Ms Wenham said.",0
-1,0,-0.8,0.333,0,0.25,0.663,0.077,"""But there's a difference between the fact that the market has loads and loads of erectile dysfunction drugs but no cures for Dengue fever... to us all now being in the same boat and us all facing exactly the same need for the same product, and that product being finite.""",0
-0,0,1,0.5,0.333,0.375,0.28,0.077,A landmark global vaccine plan known as Covax is seeking to ensure an equitable distribution of future coronavirus vaccines.,1
-0,0.333,-0.05,1,0.667,0.375,0.592,0.538,"The joint initiative - between the Gavi vaccines alliance, the WHO and the Coalition for Epidemic Preparedness Innovations (CEPI) - aims to procure enough vaccines for participating countries to inoculate at least 20% of their populations.",1
+1.0,0.333,1.0,0.143,0.257,0.333,0.077,0.125,0,0.0,The WHO estimates that nearly 20 million infants have insufficient access to vaccines each year.,1
+0.0,0.333,0.75,0.167,0.372,0.0,0.0,0.125,0,0.0,"Research shows that during the 2009 ""swine flu"" pandemic the supply of vaccines was dominated by advance purchase agreements with wealthy states.",0
+0.0,0.667,0.6,0.2,0.675,0.0,0.0,0.0,0,0.5,"""We talk about the 90/10 divide in global health - 90% of the world's pharmaceutical products serve 10% of the world's population.",0
+0.0,0.0,1.0,0.25,0.419,0.0,0.154,0.0,0,0.0,"This is part of that story,"" Ms Wenham said.",0
+1.0,0.0,-0.8,0.333,0.663,0.0,0.077,0.25,0,1.0,"""But there's a difference between the fact that the market has loads and loads of erectile dysfunction drugs but no cures for Dengue fever... to us all now being in the same boat and us all facing exactly the same need for the same product, and that product being finite.""",0
+0.0,0.0,1.0,0.5,0.28,0.333,0.077,0.375,0,0.0,A landmark global vaccine plan known as Covax is seeking to ensure an equitable distribution of future coronavirus vaccines.,1
+0.0,0.333,-0.05,1.0,0.592,0.667,0.538,0.375,0,0.0,"The joint initiative - between the Gavi vaccines alliance, the WHO and the Coalition for Epidemic Preparedness Innovations (CEPI) - aims to procure enough vaccines for participating countries to inoculate at least 20% of their populations.",1
