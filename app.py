@@ -67,9 +67,9 @@ if(option == 'Summary'):
     st.sidebar.write('Min:', values[0])
     st.sidebar.write('Max:', values[1])
     if st.button('Compute'):
-        np1 = non_cachable_task1()
-        summarized_text = nlp1(user_input,values[0],values[1])
-        st.write(summarized_text)
+        nlp1 = non_cachable_task1()
+        summarized_text = nlp1(user_input,min_length = values[0],max_length = values[1])
+        st.write(summarized_text[0]['summary_text'])
 
 elif  option == 'Question Answer (Theoretical)' :
     st.write('## Question Answer Theoretical ')
